@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 2560
     height: 1517
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1467
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 158
+  controlID: 148
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 553
     height: 1467
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -151,7 +151,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1517
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 97
+  controlID: 84
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 98
+  controlID: 85
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,22 +399,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/VR Beginner/Audio
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/VR Beginner/Audio
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\IOCT\Documents\VR Horror Game\VR Horror Game
+  m_LastProjectPath: C:\Users\IOCT\Documents\GitHub\Msc-Major-Project\VR Horror Game\VR
+    Horror Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3e550000
-    m_LastClickedID: 21822
-    m_ExpandedIDs: 000000003e5500004a550000505500006a5500006c5500008259000000ca9a3b
+    m_SelectedIDs: 56560000
+    m_LastClickedID: 22102
+    m_ExpandedIDs: 00000000c4550000d255000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -442,7 +443,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e550000
+    m_ExpandedIDs: 00000000c4550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,7 +568,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1e0dffffae0dffff6413ffff6813ffff0e16ffff7c17ffff2e18ffff3418fffffc2fffffae30ffff8a32ffff5684ffff1c88ffffce88ffffa88affff6892ffffbcf9ffffd6f9ffff9cfaffffa2faffff50fbffff464e0000964e0000646f0000447000007e7000008c700000c8700000de700000ba710000727e0000c27e00006e7f00002c890000
+      m_ExpandedIDs: 96f9ffff82faffff0cfbffff14fbffff50fbffff464e00004e4e00005e4e00009a4e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -628,9 +629,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.97062564, y: 0.8923859, z: 0.2696453}
+    m_Target: {x: 1.0234729, y: 1.1644735, z: 0.35538954}
     speed: 2
-    m_Value: {x: 0.97062564, y: 0.8923859, z: 0.2696453}
+    m_Value: {x: 1.0234729, y: 1.1644735, z: 0.35538954}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -679,11 +680,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.1497339, y: 0.012766071, z: -0.0019337211, w: -0.98865724}
     speed: 2
-    m_Value: {x: -0.15121445, y: 0.012762964, z: -0.0019528399, w: -0.9884167}
+    m_Value: {x: -0.1497339, y: 0.012766071, z: -0.001933721, w: -0.9886572}
   m_Size:
-    m_Target: 2.2509387
+    m_Target: 1.9509387
     speed: 2
-    m_Value: 1.9509387
+    m_Value: 1.6509387
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -757,8 +758,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -702
     m_HBaseRangeMax: 702
-    m_VBaseRangeMin: -422.5
-    m_VBaseRangeMax: 422.5
+    m_VBaseRangeMin: -433
+    m_VBaseRangeMax: 433
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -775,11 +776,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1404
-      height: 845
+      height: 866
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 702, y: 422.5}
+    m_Translation: {x: 702, y: 433}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -787,9 +788,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -702
-      y: -422.5
+      y: -433
       width: 1404
-      height: 845
+      height: 866
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1404, y: 866}

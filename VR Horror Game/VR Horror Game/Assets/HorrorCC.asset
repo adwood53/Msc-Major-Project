@@ -13,12 +13,6 @@ MonoBehaviour:
   m_Name: HorrorCC
   m_EditorClassIdentifier: 
   DatabaseEntries:
-  - clip: {fileID: 8300000, guid: c1b79e2e7fc73f449af3051fb3044efb, type: 3}
-    Lines:
-    - StartSecond: 0
-      Text: '[ Humming ]'
-    - StartSecond: 1.5
-      Text: '[ More Humming ]'
   - clip: {fileID: 8300000, guid: 90e446b109c1ec24c9287706dc4b4a70, type: 3}
     Lines:
     - StartSecond: 0
@@ -42,4 +36,4 @@ MonoBehaviour:
   - clip: {fileID: 8300000, guid: 21e7f6427ab3ec64d94c1960eeb1f810, type: 3}
     Lines:
     - StartSecond: 0
-      Text: 
+      Text: '[ Fizzle ]'
