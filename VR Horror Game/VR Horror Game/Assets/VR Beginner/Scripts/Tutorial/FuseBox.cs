@@ -8,19 +8,28 @@ public class FuseBox : MonoBehaviour
     public ParticleSystem[] SwitchedOnVFX;
     public ParticleSystem[] SwitchedOffVFX;
 
-    public GameObject light;
+    public GameObject[] poweredObjects;
     bool m_FusePresent = false;
 
     public void Switched(int step)
     {
         if (!m_FusePresent)
+        {
+            foreach (GameObject go in poweredObjects)
+            {
+                go.SetActive(false);
+            }
             return;
+        }
 
         if (step == 0)
         {
             foreach (var s in SwitchedOffVFX)
             {
-                light.SetActive(true);
+                foreach (GameObject go in poweredObjects)
+                {
+                    go.SetActive(true);
+                }
                 s.Play();
             }
         }
@@ -28,7 +37,10 @@ public class FuseBox : MonoBehaviour
         {
             foreach (var s in SwitchedOnVFX)
             {
-                light.SetActive(false);
+                foreach (GameObject go in poweredObjects)
+                {
+                    go.SetActive(false);
+                }
                 s.Play();
             }
         }

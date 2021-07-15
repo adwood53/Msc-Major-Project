@@ -12,7 +12,7 @@ public class ContactSoundPlayer : MonoBehaviour
     static int s_IDMax = 0;
 
     public bool CloseCaptioned = false;
-    public AudioClip[] Clips;
+    AudioClip[] Clips;
 
     int m_ID;
 
