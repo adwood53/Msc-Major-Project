@@ -9,7 +9,7 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000026FC1B0ACB8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001A58243FCE8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -25,33 +25,22 @@
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Soundfield'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SystemI::createSoundInternal             : Create name='fmod:///remote/C:/Users/IOCT/Documents/GitHub/Msc-Major-Project/VR Horror Game/VR Horror FMOD/VR Horror/Assets/S21c8ad9b230b4411532e.wav', mode=0x0200C202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/IOCT/Documents/GitHub/Msc-Major-Project/VR Horror Game/VR Horror FMOD/VR Horror/Assets/S21c8ad9b230b4411532e.wav'
-[LOG] SystemI::createSoundInternal             : Sample 0/0: name='(null)', format=3, channels=4, frequency=96000, lengthbytes=8316720, lengthpcm=693060, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.000000.
-[LOG] SoundI::release                          : S21c8ad9b230b4411532e.wav (0000026F5C77B7B8)
-[LOG] SystemI::createSoundInternal             : Create name='fmod:///remote/C:/Users/IOCT/Documents/GitHub/Msc-Major-Project/VR Horror Game/VR Horror FMOD/VR Horror/Assets/S21c8ad9b230b4411532e.wav', mode=0x0200C202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] ProfileRemoteFile::fileOpen              : Attemping to open remote file 'C:/Users/IOCT/Documents/GitHub/Msc-Major-Project/VR Horror Game/VR Horror FMOD/VR Horror/Assets/S21c8ad9b230b4411532e.wav'
-[LOG] SystemI::createSoundInternal             : Sample 0/0: name='(null)', format=3, channels=4, frequency=96000, lengthbytes=8316720, lengthpcm=693060, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.000000.
-[LOG] SoundI::release                          : S21c8ad9b230b4411532e.wav (0000026F5C77BE38)
-[LOG] SoundI::release                          :  (0000026FC05F0968)
-[LOG] SoundI::release                          :     bear2 (000002707F0C26E8)
+[LOG] SoundI::release                          : A fine day (000001A585AC75A8)
+[LOG] SoundI::release                          :     A fine day (000001A3C12DA7D8)
+[LOG] SoundI::release                          :     A fine day (000001A3C12E1448)
+[LOG] SoundI::release                          :  (000001A5B54F2BD8)
+[LOG] SoundI::release                          :     bear2 (000001A3C12DDBD8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
-[LOG] ProfileClient::markForDead               : Closing client connection
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
-[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
-[LOG] FMOD_OS_Net_Read                         : Interrupted.[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
-[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
@@ -62,6 +51,42 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Soundfield'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Soundfield'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'

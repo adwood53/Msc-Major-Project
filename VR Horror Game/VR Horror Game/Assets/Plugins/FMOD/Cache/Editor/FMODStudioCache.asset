@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/BinauralTest
   guid: ca4d26f6e8249d45aa550322fddf7503
-  Banks:
-  - {fileID: 7865465993468499565}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -23,78 +22,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 7219
---- !u!114 &-1103536835154971777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../VR Horror FMOD/VR Horror/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637619656219737844
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 888
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -1103536835154971777}
-  - {fileID: 7865465993468499565}
-  EditorEvents:
-  - {fileID: 7873422154838124869}
-  - {fileID: 4655649394407873941}
-  - {fileID: -6982017910652204471}
-  - {fileID: 404066820268674924}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 7865465993468499565}
-  StringsBanks:
-  - {fileID: -1103536835154971777}
-  stringsBankWriteTime: 637619656219737844
-  cacheVersion: 8
---- !u!114 &404066820268674924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Collisions/ImpactMetal/ImpactMetalMedium
-  m_EditorClassIdentifier: 
-  Path: event:/Collisions/ImpactMetal/ImpactMetalMedium
-  guid: 7c41be3a82934f4282ab25d83deea8e1
-  Banks:
-  - {fileID: 7865465993468499565}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 150
---- !u!114 &4655649394407873941
+--- !u!114 &-6008467181578704308
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,7 +45,53 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 80
---- !u!114 &7865465993468499565
+--- !u!114 &-5463348752152521135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BinauralTest
+  m_EditorClassIdentifier: 
+  Path: event:/BinauralTest
+  guid: ca4d26f6e8249d45aa550322fddf7503
+  Banks:
+  - {fileID: 7865465993468499565}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 7219
+--- !u!114 &-4447308421720618578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Collisions/ImpactMetal/ImpactMetalMedium
+  m_EditorClassIdentifier: 
+  Path: event:/Collisions/ImpactMetal/ImpactMetalMedium
+  guid: 7c41be3a82934f4282ab25d83deea8e1
+  Banks:
+  - {fileID: 7865465993468499565}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 150
+--- !u!114 &-1103536835154971777
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,18 +101,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../VR Horror FMOD/VR Horror/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637619656219717550
+  Path: ../VR Horror FMOD/VR Horror/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637620530058313314
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 304416
+    Value: 946
   Exists: 1
---- !u!114 &7873422154838124869
+--- !u!114 &-352566352669625056
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,6 +128,144 @@ MonoBehaviour:
   guid: b72749c6fefe0946a9e6233af971b80b
   Banks:
   - {fileID: 7865465993468499565}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2844
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1103536835154971777}
+  - {fileID: 7865465993468499565}
+  EditorEvents:
+  - {fileID: -4447308421720618578}
+  - {fileID: -6008467181578704308}
+  - {fileID: 7487494515823002825}
+  - {fileID: -352566352669625056}
+  - {fileID: -5463348752152521135}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 7865465993468499565}
+  StringsBanks:
+  - {fileID: -1103536835154971777}
+  stringsBankWriteTime: 637620530058313314
+  cacheVersion: 8
+--- !u!114 &404066820268674924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Collisions/ImpactMetal/ImpactMetalMedium
+  m_EditorClassIdentifier: 
+  Path: event:/Collisions/ImpactMetal/ImpactMetalMedium
+  guid: 7c41be3a82934f4282ab25d83deea8e1
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 150
+--- !u!114 &4655649394407873941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interactions/FlickSwitch1
+  m_EditorClassIdentifier: 
+  Path: event:/Interactions/FlickSwitch1
+  guid: 7de0278e35a9bb48b26c7bdf0b4fc7a6
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 80
+--- !u!114 &7487494515823002825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Scary Events/Its a fine day
+  m_EditorClassIdentifier: 
+  Path: event:/Scary Events/Its a fine day
+  guid: 90ba67559628c94db7edfaabee86bf70
+  Banks:
+  - {fileID: 7865465993468499565}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 128052
+--- !u!114 &7865465993468499565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../VR Horror FMOD/VR Horror/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637620530058293359
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1600448
+  Exists: 1
+--- !u!114 &7873422154838124869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bear!
+  m_EditorClassIdentifier: 
+  Path: event:/Bear!
+  guid: b72749c6fefe0946a9e6233af971b80b
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 0

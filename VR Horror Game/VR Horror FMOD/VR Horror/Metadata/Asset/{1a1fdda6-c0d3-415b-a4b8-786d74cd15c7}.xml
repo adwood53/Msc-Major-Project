@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{1a1fdda6-c0d3-415b-a4b8-786d74cd15c7}">
+		<property name="assetPath">
+			<value>Freesound.org/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{aa59176e-4dc0-44c5-9705-a2be8d7ffa38}</destination>
+		</relationship>
+	</object>
+</objects>

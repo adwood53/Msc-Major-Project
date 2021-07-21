@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{975d21f1-24ab-4faf-b5f5-7180e0a23389}">
 		<property name="assetPath">
-			<value>S21c8ad9b230b4411532e.wav</value>
+			<value>Freesound.org/S21c8ad9b230b4411532e.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>
