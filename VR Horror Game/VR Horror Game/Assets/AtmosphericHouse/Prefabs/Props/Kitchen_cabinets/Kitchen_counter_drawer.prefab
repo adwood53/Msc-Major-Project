@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1367307280762979221}
   - component: {fileID: 1237302234563543544}
-  - component: {fileID: 7759512904569963665}
   - component: {fileID: 7167290832388276489}
   m_Layer: 0
   m_Name: Kitchen_counter_drawer
@@ -77,12 +76,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
-  MovingRigidbody: {fileID: 0}
-  LocalAxis: {x: -1, y: 0, z: 0}
+  MovingRigidbody: {fileID: 3471582767005836713}
+  LocalAxis: {x: 0, y: 0, z: 1}
   AxisLength: 0.4
   Steps: 0
   SnapOnlyOnRelease: 1
-  ReturnOnFree: 0
+  ReturnOnFree: 1
   ReturnSpeed: 0
   SnapAudioClip: {fileID: 0}
   OnDragDistance:
@@ -91,22 +90,6 @@ MonoBehaviour:
   OnDragStep:
     m_PersistentCalls:
       m_Calls: []
---- !u!54 &7759512904569963665
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851672237323491631}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &7167290832388276489
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -136,6 +119,7 @@ GameObject:
   - component: {fileID: 3879663760635204296}
   - component: {fileID: 7221354468813269751}
   - component: {fileID: 3707613412201368904}
+  - component: {fileID: 3471582767005836713}
   m_Layer: 0
   m_Name: Kitchen_counter_drawer
   m_TagString: Untagged
@@ -271,3 +255,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.44479996, y: 0.01, z: 0.56}
   m_Center: {x: 0, y: -0.05, z: -0.2943003}
+--- !u!54 &3471582767005836713
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8126713915451928121}
+  serializedVersion: 2
+  m_Mass: 4
+  m_Drag: 2
+  m_AngularDrag: 10
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

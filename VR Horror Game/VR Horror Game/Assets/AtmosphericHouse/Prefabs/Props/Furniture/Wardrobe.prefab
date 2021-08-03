@@ -9,7 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5835146854627048761}
-  m_Layer: 0
+  - component: {fileID: 960342374724534933}
+  - component: {fileID: 5420814081666090085}
+  - component: {fileID: 591877652763595189}
+  m_Layer: 8
   m_Name: Wardrobe_drawer_parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31,6 +34,89 @@ Transform:
   m_Father: {fileID: 3408363633798976572}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &960342374724534933
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548218792548047897}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05057186, y: 0.042386234, z: 0.055065244}
+  m_Center: {x: 0.47802266, y: -0.005130708, z: 0.020577922}
+--- !u!65 &5420814081666090085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548218792548047897}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05057186, y: 0.042386234, z: 0.055065244}
+  m_Center: {x: -0.4780227, y: -0.005130708, z: 0.020577922}
+--- !u!114 &591877652763595189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548218792548047897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 699d0e011b0f4a84f964788817993588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 960342374724534933}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
+  m_OnFirstHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExit:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CustomReticle: {fileID: 0}
+  MovingRigidbody: {fileID: 5147435682887810734}
+  LocalAxis: {x: 0, y: 0, z: 1}
+  AxisLength: 0.4
+  Steps: 0
+  SnapOnlyOnRelease: 1
+  ReturnOnFree: 0
+  ReturnSpeed: 0
+  SnapAudioClip: {fileID: 0}
+  OnDragDistance:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDragStep:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2596078921204289158
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,6 +184,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -122,6 +209,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &8629215295331557813
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -272,8 +360,7 @@ GameObject:
   - component: {fileID: 1797555684153377078}
   - component: {fileID: 4287853519067588612}
   - component: {fileID: 4186155935338171079}
-  - component: {fileID: 6441868840111313460}
-  - component: {fileID: 959564777878994130}
+  - component: {fileID: 5147435682887810734}
   m_Layer: 0
   m_Name: Wardrobe_drawer
   m_TagString: Untagged
@@ -318,6 +405,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -342,6 +430,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &2367120428029286058
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -407,40 +496,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5410426, y: 0.03, z: 0.46593118}
   m_Center: {x: 0.000000029802322, y: -0.1, z: -0.19407237}
---- !u!95 &6441868840111313460
-Animator:
-  serializedVersion: 3
+--- !u!54 &5147435682887810734
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8141672177359358111}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a9dc715836e6ae041ab7f0825d93e9b6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &959564777878994130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8141672177359358111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18657d0e6be75344291752f4db22809b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectOpen: 0
-  objectOpenAdditional: 0
-  animateAdditional: {fileID: 0}
+  serializedVersion: 2
+  m_Mass: 4
+  m_Drag: 4
+  m_AngularDrag: 10
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &3648277884422391879
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -16,8 +16,7 @@ GameObject:
   - component: {fileID: 2561448546566779769}
   - component: {fileID: 8557250436892675033}
   - component: {fileID: 5725078062238699181}
-  - component: {fileID: 6850793684632742481}
-  - component: {fileID: 903836456503754295}
+  - component: {fileID: 8967984751265020470}
   m_Layer: 0
   m_Name: Side_table_B_drawer
   m_TagString: Untagged
@@ -153,40 +152,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.88847107, y: 0.02, z: 0.37809753}
   m_Center: {x: 0, y: -0.07, z: -0.18351462}
---- !u!95 &6850793684632742481
-Animator:
-  serializedVersion: 3
+--- !u!54 &8967984751265020470
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 68770765380193567}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a9dc715836e6ae041ab7f0825d93e9b6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &903836456503754295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68770765380193567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18657d0e6be75344291752f4db22809b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectOpen: 0
-  objectOpenAdditional: 0
-  animateAdditional: {fileID: 0}
+  serializedVersion: 2
+  m_Mass: 6
+  m_Drag: 4
+  m_AngularDrag: 10
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1644661389795608347
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,8 +179,7 @@ GameObject:
   - component: {fileID: 2132685859485457825}
   - component: {fileID: 1840339387663951647}
   - component: {fileID: 59250748924115759}
-  - component: {fileID: 7562749588543872779}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Side_table_B_drawer_parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,8 +257,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
-  MovingRigidbody: {fileID: 0}
-  LocalAxis: {x: -1, y: 0, z: 0}
+  MovingRigidbody: {fileID: 8967984751265020470}
+  LocalAxis: {x: 0, y: 0, z: 1}
   AxisLength: 0.4
   Steps: 0
   SnapOnlyOnRelease: 1
@@ -291,19 +271,3 @@ MonoBehaviour:
   OnDragStep:
     m_PersistentCalls:
       m_Calls: []
---- !u!54 &7562749588543872779
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1644661389795608347}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0

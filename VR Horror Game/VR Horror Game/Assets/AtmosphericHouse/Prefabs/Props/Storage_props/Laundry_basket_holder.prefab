@@ -18,6 +18,10 @@ GameObject:
   - component: {fileID: 729046093356814218}
   - component: {fileID: 1621546475021884627}
   - component: {fileID: 337663308516136701}
+  - component: {fileID: 9114555097147917642}
+  - component: {fileID: 1471019416588284198}
+  - component: {fileID: 5361124982073886394}
+  - component: {fileID: 6111001279587476973}
   m_Layer: 0
   m_Name: Laundry_basket_holder
   m_TagString: Untagged
@@ -64,6 +68,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -88,6 +93,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &7172022805261087733
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -179,6 +185,90 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 0.02, z: 0.02}
   m_Center: {x: -0.000000014901165, y: 0.54, z: -0.22}
+--- !u!65 &9114555097147917642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609450454753785396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 0.01999998, z: 0.018161103}
+  m_Center: {x: -0.000000029802322, y: 0.42, z: 0.20827955}
+--- !u!65 &1471019416588284198
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609450454753785396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 0.01999998, z: 0.018127501}
+  m_Center: {x: -0.000000029802322, y: 0.42, z: -0.20734757}
+--- !u!65 &5361124982073886394
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609450454753785396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 0.025460184, z: 0.018127501}
+  m_Center: {x: -0.000000029802322, y: 0.8512707, z: -0.20734757}
+--- !u!65 &6111001279587476973
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609450454753785396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6, y: 0.025460243, z: 0.018054217}
+  m_Center: {x: -0.000000029802322, y: 0.8512707, z: 0.20890494}
+--- !u!54 &2714213947525028842
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7894102485200535409}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 1
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &6375644435705903803
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7894102486219776608}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 1
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &888735387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -199,7 +289,7 @@ PrefabInstance:
     - target: {fileID: 7405796639125880385, guid: c150ea6ecaf05f741a46949ab2f8a4e8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.13100004
+      value: 0.14310014
       objectReference: {fileID: 0}
     - target: {fileID: 7405796639125880385, guid: c150ea6ecaf05f741a46949ab2f8a4e8,
         type: 3}
@@ -246,8 +336,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laundry_basket_A
       objectReference: {fileID: 0}
+    - target: {fileID: 7894102485878531323, guid: c150ea6ecaf05f741a46949ab2f8a4e8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c150ea6ecaf05f741a46949ab2f8a4e8, type: 3}
+--- !u!1 &7894102486219776608 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7894102485878531323, guid: c150ea6ecaf05f741a46949ab2f8a4e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 888735387}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7405796639985121498 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7405796639125880385, guid: c150ea6ecaf05f741a46949ab2f8a4e8,
@@ -274,7 +375,7 @@ PrefabInstance:
     - target: {fileID: 7405796639125880385, guid: c150ea6ecaf05f741a46949ab2f8a4e8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5581999
+      value: 0.5703
       objectReference: {fileID: 0}
     - target: {fileID: 7405796639125880385, guid: c150ea6ecaf05f741a46949ab2f8a4e8,
         type: 3}
@@ -321,8 +422,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laundry_basket_A
       objectReference: {fileID: 0}
+    - target: {fileID: 7894102485878531323, guid: c150ea6ecaf05f741a46949ab2f8a4e8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c150ea6ecaf05f741a46949ab2f8a4e8, type: 3}
+--- !u!1 &7894102485200535409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7894102485878531323, guid: c150ea6ecaf05f741a46949ab2f8a4e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1773575050}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7405796638697432523 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7405796639125880385, guid: c150ea6ecaf05f741a46949ab2f8a4e8,

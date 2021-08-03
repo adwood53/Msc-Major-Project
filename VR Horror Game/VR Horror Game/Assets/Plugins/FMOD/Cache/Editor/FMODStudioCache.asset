@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8246550047975045210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8090752771416447248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,12 +37,167 @@ MonoBehaviour:
   Path: ../VR Horror FMOD/VR Horror/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637625533705398081
+  lastModified: 637636076489565975
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1510
+    Value: 1552
   Exists: 1
+--- !u!114 &-7953360318760914028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-7925708694850809422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-7792086856889258678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impact Noises/Plate
+  m_EditorClassIdentifier: 
+  Path: event:/Impact Noises/Plate
+  guid: fe56bf4f6845f44080c8f0055ad5eae5
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4380
+--- !u!114 &-7706158365251898247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-7608400412053615752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/Music/New Event
+  guid: d010f9d0b821504cbcfc8aed1210dfab
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 128052
+--- !u!114 &-7447413326596415607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-7084549356777405729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-6982017910652204471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,6 +220,94 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 7219
+--- !u!114 &-6786171141060108662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-6367603806227543302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-6267486365541048984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-6163471029862089791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-6008467181578704308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80,8 +345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Impact Noises/Small Book
   guid: 3a12a3e75eaf3f449fe3a9eb7d230dc0
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -89,6 +353,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1985
+--- !u!114 &-5879616848276790849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-5697177280873068387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,8 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Impact Noises/Plastic Bottle
   guid: 62a87df6f40c7d43a460214522b75ea7
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -112,6 +397,50 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1567
+--- !u!114 &-5616196359175741949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-5545213807171693054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-5463348752152521135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,6 +464,95 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 7219
+--- !u!114 &-5161196642556843211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-5100416190859930524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-5096375095401602538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-4836733443018400441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Static Objects/Washing Machine
+  m_EditorClassIdentifier: 
+  Path: event:/Static Objects/Washing Machine
+  guid: a404197d78998849a04a2dec9c4bfeb1
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 128052
 --- !u!114 &-4737526857391927721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,8 +567,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Static Objects/Drawer Close
   guid: 0f9022c02e27294297f32a033bdbfa1d
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -158,6 +575,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1567
+--- !u!114 &-4661447432191247684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-4648104982101062896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,15 +611,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Static Objects/Kettle
   guid: ca278ad2783027489e9f122eefbe9b1c
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
+  MinDistance: 0
+  MaxDistance: 0
   Length: 53577
+--- !u!114 &-4565373685859687616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-4447308421720618578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +664,50 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 150
+--- !u!114 &-3998535054719396588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-3667599555613608509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-3620578716768430272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,6 +722,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Impact Noises/Pen
   guid: 46d5ab57bd7aee4daa618a6f55d2f910
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1619
+--- !u!114 &-3559877230240851373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-3360079401204370417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impact Noises/Small Book
+  m_EditorClassIdentifier: 
+  Path: event:/Impact Noises/Small Book
+  guid: 3a12a3e75eaf3f449fe3a9eb7d230dc0
   Banks:
   - {fileID: 5434908174153803928}
   IsStream: 0
@@ -226,8 +774,208 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1619
+  Length: 1985
+--- !u!114 &-3307479479468664264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-3264833651256583548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-3111178695055217535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-2800712818126928013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-2530929223035918310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-2412223799953287192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-1995377374692789702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-1551085455461264389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Daytime Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Daytime Ambience
+  guid: 237c130b755c8e4eb5c6b9d71e3d54af
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 245498
+--- !u!114 &-1414566791912312344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Rain and Thunder
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Rain and Thunder
+  guid: e9c9309f71c5e84d87a27998ca485b4c
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 358530
+--- !u!114 &-1231151250648916032
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,6 +1018,50 @@ MonoBehaviour:
   - Name: Desktop
     Value: 946
   Exists: 1
+--- !u!114 &-832238823555648488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-701214951482000185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-577226124060449318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,8 +1076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Impact Noises/Plate
   guid: fe56bf4f6845f44080c8f0055ad5eae5
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -307,8 +1098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Impact Noises/Liquid Bottle
   guid: dc8378ed8d47d04c86be80b9e16108f1
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -339,6 +1129,73 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2844
+--- !u!114 &-350325435893676984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-341298317247758132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impact Noises/Liquid Bottle
+  m_EditorClassIdentifier: 
+  Path: event:/Impact Noises/Liquid Bottle
+  guid: dc8378ed8d47d04c86be80b9e16108f1
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &-71761066765579309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-39571338962432936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,29 +1234,74 @@ MonoBehaviour:
   - {fileID: -8090752771416447248}
   - {fileID: 5434908174153803928}
   EditorEvents:
-  - {fileID: 1161706652308513588}
-  - {fileID: -4737526857391927721}
-  - {fileID: 3515077859531771097}
-  - {fileID: 6510462138874208709}
-  - {fileID: -5890803373785782061}
-  - {fileID: 5259493314462237867}
-  - {fileID: -3620578716768430272}
-  - {fileID: -5697177280873068387}
-  - {fileID: 5661128414692428878}
-  - {fileID: -4648104982101062896}
-  - {fileID: 7554660102787209083}
-  - {fileID: 6395784105670358007}
-  - {fileID: -408987342529616566}
-  - {fileID: 6583547856457923943}
-  - {fileID: 2493874641618437205}
-  - {fileID: -577226124060449318}
+  - {fileID: 3466848995654986053}
+  - {fileID: 4385669299017830452}
+  - {fileID: -1551085455461264389}
+  - {fileID: 5481872181048651283}
+  - {fileID: -3360079401204370417}
+  - {fileID: 680222573279643607}
+  - {fileID: 5025374533383654619}
+  - {fileID: 4102442131836117044}
+  - {fileID: -4836733443018400441}
+  - {fileID: 3769183275976601486}
+  - {fileID: 5918041350906972271}
+  - {fileID: 6928857674485167288}
+  - {fileID: -341298317247758132}
+  - {fileID: -1414566791912312344}
+  - {fileID: 7710012682754383037}
+  - {fileID: -7792086856889258678}
+  - {fileID: 1649439775162654258}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5434908174153803928}
   StringsBanks:
   - {fileID: -8090752771416447248}
-  stringsBankWriteTime: 637625533705398081
+  stringsBankWriteTime: 637636076489565975
   cacheVersion: 8
+--- !u!114 &134207599209868766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &163926504430889335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &399806671575283977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -444,6 +1346,51 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 150
+--- !u!114 &680222573279643607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impact Noises/Large Book
+  m_EditorClassIdentifier: 
+  Path: event:/Impact Noises/Large Book
+  guid: 3ea622e7a8307e46beb2409331532e8c
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1619
+--- !u!114 &950038288839021080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &1161706652308513588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,17 +1405,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Impact Noises/Cutlery
   guid: 08129bafb9d9bc4ebe83b8c725054b91
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 6562158199975649671}
+  - {fileID: -3667599555613608509}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &1649439775162654258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Intro
+  guid: d010f9d0b821504cbcfc8aed1210dfab
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 55000
 --- !u!114 &2027903857762237160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &2368048553052427676
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -504,8 +1495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Static Objects/New Event
   guid: faf30f8367d7dd46a41442e00206f39e
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -513,6 +1503,28 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &2584016909694583391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &2774682291899908772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -557,6 +1569,30 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 150
+--- !u!114 &3466848995654986053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impact Noises/Cutlery
+  m_EditorClassIdentifier: 
+  Path: event:/Impact Noises/Cutlery
+  guid: 08129bafb9d9bc4ebe83b8c725054b91
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -832238823555648488}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &3515077859531771097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,6 +1607,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Ambience/Daytime Ambience
   guid: 237c130b755c8e4eb5c6b9d71e3d54af
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 245498
+--- !u!114 &3769183275976601486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Static Objects/Kettle
+  m_EditorClassIdentifier: 
+  Path: event:/Static Objects/Kettle
+  guid: ca278ad2783027489e9f122eefbe9b1c
   Banks:
   - {fileID: 5434908174153803928}
   IsStream: 1
@@ -579,7 +1637,75 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 245498
+  Length: 53577
+--- !u!114 &4102442131836117044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impact Noises/Plastic Bottle
+  m_EditorClassIdentifier: 
+  Path: event:/Impact Noises/Plastic Bottle
+  guid: 62a87df6f40c7d43a460214522b75ea7
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1567
+--- !u!114 &4385669299017830452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Static Objects/Drawer Close
+  m_EditorClassIdentifier: 
+  Path: event:/Static Objects/Drawer Close
+  guid: 0f9022c02e27294297f32a033bdbfa1d
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1567
+--- !u!114 &4620116347811415537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &4655649394407873941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,6 +1728,73 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 80
+--- !u!114 &4831657190560277384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &5011895782530855327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &5025374533383654619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Impact Noises/Pen
+  m_EditorClassIdentifier: 
+  Path: event:/Impact Noises/Pen
+  guid: 46d5ab57bd7aee4daa618a6f55d2f910
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1619
 --- !u!114 &5259493314462237867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,8 +1809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Impact Noises/Large Book
   guid: 3ea622e7a8307e46beb2409331532e8c
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -640,12 +1832,35 @@ MonoBehaviour:
   Path: ../VR Horror FMOD/VR Horror/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637625533705368176
+  lastModified: 637636076489546026
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 11184320
+    Value: 12479776
   Exists: 1
+--- !u!114 &5481872181048651283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Room Ambience 1
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Room Ambience 1
+  guid: 36f09dd159575b46aac6680fda62fdf0
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 38269
 --- !u!114 &5661128414692428878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,15 +1875,103 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Static Objects/Washing Machine
   guid: a404197d78998849a04a2dec9c4bfeb1
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 128052
+--- !u!114 &5744993386911506479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &5824637256399126649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &5918041350906972271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Static Objects/Cabinet Close
+  m_EditorClassIdentifier: 
+  Path: event:/Static Objects/Cabinet Close
+  guid: cca912dda2e4504c8ab394e585f1f12b
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 128052
+  Length: 1000
+--- !u!114 &6088089604524096364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &6390698038811839216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -705,8 +2008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Static Objects/Drawer Open
   guid: d0b8f349a631604999942ad9fe2e5304
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -728,8 +2030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Ambience/Room Ambience 1
   guid: 36f09dd159575b46aac6680fda62fdf0
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -773,8 +2074,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Ambience/Rain and Thunder
   guid: e9c9309f71c5e84d87a27998ca485b4c
-  Banks:
-  - {fileID: 5434908174153803928}
+  Banks: []
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -782,6 +2082,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 358530
+--- !u!114 &6928857674485167288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Static Objects/Drawer Open
+  m_EditorClassIdentifier: 
+  Path: event:/Static Objects/Drawer Open
+  guid: d0b8f349a631604999942ad9fe2e5304
+  Banks:
+  - {fileID: 5434908174153803928}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1802
 --- !u!114 &7487494515823002825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -819,6 +2142,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Static Objects/Cabinet Close
   guid: cca912dda2e4504c8ab394e585f1f12b
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &7710012682754383037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Static Objects/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/Static Objects/New Event
+  guid: faf30f8367d7dd46a41442e00206f39e
   Banks:
   - {fileID: 5434908174153803928}
   IsStream: 0
@@ -827,7 +2172,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1000
+  Length: 0
 --- !u!114 &7865465993468499565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -871,3 +2216,113 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2844
+--- !u!114 &7959017207162903644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &8176820789168027252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &8295290339012848953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &8377797242399012997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &8980058565719780289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cutlery/Ground
+  m_EditorClassIdentifier: 
+  Name: Ground
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
