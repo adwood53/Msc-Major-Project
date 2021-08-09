@@ -12,11 +12,18 @@ public class ScreenFader : MonoBehaviour
     [SerializeField] private Color _color = Color.black;
     [SerializeField] private Material _fadeMaterial = null;
 
-    private void OnRenderImage(RenderTexture source, RenderTexture destination)
+
+    //Doesnt work with URP
+    //private void OnRenderImage(RenderTexture source, RenderTexture destination)
+    //{
+    //    _fadeMaterial.SetFloat("_Intensity", _intensity);
+    //    _fadeMaterial.SetColor("_FadeColor", _color);
+    //    Graphics.Blit(source, destination, _fadeMaterial);
+    //}
+
+    private void Update()
     {
-        _fadeMaterial.SetFloat("_Intensity", _intensity);
-        _fadeMaterial.SetColor("_FadeColor", _color);
-        Graphics.Blit(source, destination, _fadeMaterial);
+        _fadeMaterial.color = new Color(_color.r, _color.g, _color.b, _intensity);
     }
 
     public Coroutine StartFadeIn()
