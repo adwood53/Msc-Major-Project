@@ -14,8 +14,6 @@ public class SceneLoader : Singleton<SceneLoader>
     public ScreenFader screenFader = null;
     private bool isLoading = false;
 
-    public TMP_Text loadingText;
-
     [Tooltip("Adds an additional delay to the loading coroutines to test on fast loading scenes.")] 
     public bool debugTime = false;
 
@@ -32,16 +30,33 @@ public class SceneLoader : Singleton<SceneLoader>
     public void LoadNewScene(string sceneName)
     {
         if (!isLoading)
-            StartCoroutine(LoadScene(sceneName));
+            StartCoroutine(LoadScene(sceneName, false));
     }
 
-    private IEnumerator LoadScene(string sceneName)
+    public void LoadNewSceneInstant(string sceneName)
+    {
+        if (!isLoading)
+            StartCoroutine(LoadScene(sceneName, true));
+    }
+
+    private IEnumerator LoadScene(string sceneName, bool instant)
     {
         isLoading = true; // Loading start
 
         // Unloads current scene, fades screen and triggers OnLoadBegin event
         OnLoadBegin?.Invoke();
-        yield return screenFader.StartFadeIn();
+
+        if (instant)
+        {
+            float duration = screenFader.FadeInInstant();
+            yield return new WaitForSeconds(duration);
+        }
+        else
+        {
+            float duration = screenFader.FadeIn();
+            yield return new WaitForSeconds(duration);
+        }
+
         yield return StartCoroutine(UnloadCurrent());
 
         if (debugTime) // Adds debug delay
@@ -49,7 +64,6 @@ public class SceneLoader : Singleton<SceneLoader>
 
         // Loads new scene, unfades screen and triggers OnLoadEnd event
         yield return StartCoroutine(LoadNew(sceneName));
-        yield return screenFader.StartFadeOut();
         OnLoadEnd?.Invoke();
 
         isLoading = false; // Loading end
@@ -73,7 +87,7 @@ public class SceneLoader : Singleton<SceneLoader>
         while (!loadOperation.isDone)
         {
             // Output the current progress
-            loadingText.text = "Loading progress: " + (loadOperation.progress * 100) + "%";
+            //loadingText.text = "Loading progress: " + (loadOperation.progress * 100) + "%";
 
             // Check if the load has finished
             if (loadOperation.progress >= 0.9f)
@@ -94,5 +108,6 @@ public class SceneLoader : Singleton<SceneLoader>
     {
         yield return new WaitForEndOfFrame();
         SceneManager.SetActiveScene(scene);
+        screenFader.FadeOut();;
     }
 }

@@ -1,58 +1,77 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 //Needs updating to URP
 
 public class ScreenFader : MonoBehaviour
 {
+    public ForwardRendererData rendererData = null;
 
-    [SerializeField] private float _speed = 1.0f;
-    [SerializeField] private float _intensity = 0.0f;
-    [SerializeField] private Color _color = Color.black;
-    [SerializeField] private Material _fadeMaterial = null;
+    [Range(0, 1)] public float alpha = 0.0f;
+    [Range(0, 5)] public float duration = 0.5f;
 
+    private Material fadeMaterial = null;
 
-    //Doesnt work with URP
-    //private void OnRenderImage(RenderTexture source, RenderTexture destination)
-    //{
-    //    _fadeMaterial.SetFloat("_Intensity", _intensity);
-    //    _fadeMaterial.SetColor("_FadeColor", _color);
-    //    Graphics.Blit(source, destination, _fadeMaterial);
-    //}
-
-    private void Update()
+    private void Start()
     {
-        _fadeMaterial.color = new Color(_color.r, _color.g, _color.b, _intensity);
+        SetupFadeFeature();
     }
 
-    public Coroutine StartFadeIn()
+    private void SetupFadeFeature()
     {
-        StopAllCoroutines();
-        return StartCoroutine(FadeIn());
-    }
+        ScriptableRendererFeature feature = rendererData.rendererFeatures.Find(item => item is ScreenFadeFeature);
 
-    private IEnumerator FadeIn()
-    {
-        while (_intensity <= 1.0f)
+        if (feature is ScreenFadeFeature screenFade)
         {
-            _intensity += _speed * Time.deltaTime;
-            yield return null;
+            fadeMaterial = Instantiate(screenFade.settings.material);
+            screenFade.settings.runTimeMaterial = fadeMaterial;
         }
+
+        FadeOut();
     }
 
-    public Coroutine StartFadeOut()
+    public float FadeIn()
     {
-        StopAllCoroutines();
-        return StartCoroutine(FadeOut());
+        StartCoroutine(LerpMaterialAlpha(0f, 1f));
+        return duration;
     }
 
-    private IEnumerator FadeOut()
+    public float FadeOut()
     {
-        while (_intensity >= 0.0f)
+        StartCoroutine(LerpMaterialAlpha(1f, 0f));
+        return duration;
+    }
+
+    public float FadeInInstant()
+    {
+        fadeMaterial.SetFloat("_Alpha", 1.0f);
+        return duration;
+    }
+
+    public float FadeOutInstant()
+    {
+        fadeMaterial.SetFloat("_Alpha", 0.0f);
+        return duration;
+    }
+
+    IEnumerator LerpMaterialAlpha(float startValue, float endValue)
+    {
+        float timeElapsed = 0;
+
+        while (timeElapsed < duration)
         {
-            _intensity -= _speed * Time.deltaTime;
+            alpha = Mathf.Lerp(startValue, endValue, timeElapsed / duration);
+            timeElapsed += Time.deltaTime;
+
+            fadeMaterial.SetFloat("_Alpha", alpha);
+
             yield return null;
+            Debug.Log(alpha);
         }
+
+        alpha = endValue;
+        fadeMaterial.SetFloat("_Alpha", alpha);
     }
+
 }

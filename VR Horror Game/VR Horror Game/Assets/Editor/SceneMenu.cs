@@ -13,6 +13,12 @@ public static class SceneMenu
     {
         OpenScene("House_clean");
     }
+    [MenuItem("Scenes/Maze")]
+    public static void OpenMaze()
+    {
+        OpenScene("Maze");
+    }
+
 
     private static void OpenScene(string sceneName)
     {

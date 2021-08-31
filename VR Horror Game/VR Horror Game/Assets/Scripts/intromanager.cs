@@ -7,12 +7,16 @@ using FMODUnity;
 
 public class intromanager : MonoBehaviour
 {
-    public StudioEventEmitter em;
+    public StudioEventEmitter timedStudioEventEmitter;
+    public StudioEventEmitter[] studioEventEmitters;
 
-    public Transform trackedPose;
+    Transform trackedPose;
     public Transform sceneObject;
 
+    public string nextScene = "House_clean";
+
     bool isPlaying = false;
+    public bool skipIntro = false;
 
     // Start is called before the first frame update
     void Start()
@@ -24,20 +28,27 @@ public class intromanager : MonoBehaviour
     IEnumerator LateStart(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
-        em.Play();
+        timedStudioEventEmitter.Play();
+        foreach (StudioEventEmitter em in studioEventEmitters)
+        {
+            em.Play();
+        }
         isPlaying = true;
 
         Vector3 pos = sceneObject.position + trackedPose.position;
         pos.y = Camera.main.transform.position.y - 0.45f;
         sceneObject.position = pos;
 
-        yield return new WaitForSeconds(4f);
-        SceneLoader.Instance.LoadNewScene("House_clean");
+        if(skipIntro)
+        {
+            yield return new WaitForSeconds(4.0f);
+            SceneLoader.Instance.LoadNewScene(nextScene);
+        }
     }
 
 
     private void Update()
     {
-        if (!em.IsPlaying() && isPlaying) SceneLoader.Instance.LoadNewScene("House_clean");
+        if (!timedStudioEventEmitter.IsPlaying() && isPlaying) SceneLoader.Instance.LoadNewScene(nextScene);
     }
 }
