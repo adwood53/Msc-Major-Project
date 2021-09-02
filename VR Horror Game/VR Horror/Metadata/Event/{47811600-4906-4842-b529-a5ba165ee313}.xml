@@ -502,10 +502,10 @@
 			<value>26</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>0</value>
+			<value>0.100000001</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>0</value>
+			<value>0.900000036</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>3.29999995</value>
@@ -2223,7 +2223,6 @@
 		<property name="name">
 			<value>SourcePos</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -2232,7 +2231,6 @@
 		<property name="name">
 			<value>OverallGain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -2561,7 +2559,6 @@
 		<property name="name">
 			<value>SimOutputs</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>0</value>
 		</property>

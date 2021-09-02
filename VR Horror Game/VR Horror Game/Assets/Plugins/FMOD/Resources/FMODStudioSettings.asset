@@ -692,7 +692,7 @@ MonoBehaviour:
       HasValue: 0
     Plugins:
       Value:
-      - resonanceaudio
+      - phonon_fmod
       HasValue: 1
     StaticPlugins:
       Value: []

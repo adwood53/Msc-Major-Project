@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{2a533bd1-cb6b-42fb-b5be-4a15b84bf7d2}" />
 	<object class="GroupTrack" id="{6ca0ad50-3851-42f9-9d70-5a137894153f}">
 		<relationship name="modules">
-			<destination>{d598c99d-5466-4180-af35-31403b62c933}</destination>
+			<destination>{258f7859-85e7-4162-a570-d43ac2a24c5e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cd62ec87-ac86-45a0-9376-1c755112782a}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{1128d75f-1a5d-463e-840e-51f91091340e}">
 		<relationship name="modules">
-			<destination>{d598c99d-5466-4180-af35-31403b62c933}</destination>
+			<destination>{258f7859-85e7-4162-a570-d43ac2a24c5e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{255f80e8-b363-4245-93f8-e3aa4479009b}">
@@ -88,12 +88,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9b36561d-c321-4f75-b519-77a7a0445e67}" />
-	<object class="SingleSound" id="{d598c99d-5466-4180-af35-31403b62c933}">
+	<object class="SingleSound" id="{258f7859-85e7-4162-a570-d43ac2a24c5e}">
 		<property name="length">
-			<value>177.05795918367346</value>
+			<value>136.07183673469387</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{2780cd9f-0d92-4ce1-8c93-cf28aae61652}</destination>
+			<destination>{264908ea-6d6a-4b39-b4d0-940e75a8bd45}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cd62ec87-ac86-45a0-9376-1c755112782a}">
@@ -176,7 +176,6 @@
 		<property name="name">
 			<value>SourcePos</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -185,7 +184,6 @@
 		<property name="name">
 			<value>OverallGain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -514,7 +512,6 @@
 		<property name="name">
 			<value>SimOutputs</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>0</value>
 		</property>

@@ -152,7 +152,7 @@ PrefabInstance:
     - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4954665676858572601, guid: 358b0eb736b06da40986b005d9aa1146,
         type: 3}
@@ -304,7 +304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539386522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.199, y: 0, z: 3.413}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2629855498804092146}
@@ -314,7 +314,6 @@ Transform:
   - {fileID: 1035132560543711998}
   - {fileID: 885021971}
   - {fileID: 513407177}
-  - {fileID: 1159737982}
   - {fileID: 416568168}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -398,60 +397,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 539386523}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1159737980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1159737982}
-  - component: {fileID: 1159737981}
-  m_Layer: 0
-  m_Name: Audio System
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1159737981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159737980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
---- !u!4 &1159737982
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159737980}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.6266837, y: -0.48132703, z: -4.031695}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 539386523}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1165910517 stripped
 MonoBehaviour:
@@ -597,7 +542,7 @@ PrefabInstance:
     - target: {fileID: 1035132559422939917, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 15.657
       objectReference: {fileID: 0}
     - target: {fileID: 1035132559422939917, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
@@ -607,7 +552,7 @@ PrefabInstance:
     - target: {fileID: 1035132559422939917, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -9.227
       objectReference: {fileID: 0}
     - target: {fileID: 1035132559422939917, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
@@ -659,6 +604,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 1035132559422939919, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1035132560028652733, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: alpha
@@ -675,15 +625,55 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 4245e2f1ebcada34d884778e76609d55,
         type: 2}
+    - target: {fileID: 1035132560130305320, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1035132560354157174, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 1035132560448342091, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035132560580585926, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1035132560858109566, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2206116478748934558, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3778958606040861492, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_LineType
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778958606040861492, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_Velocity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778958606040861492, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 9.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778958606040861492, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_HoverToSelect
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3778958606040861492, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
@@ -720,6 +710,16 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1310507227}
+    - target: {fileID: 4620626272013386325, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6008306591269071418, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6563688287628671144, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_InteractionManager
@@ -740,10 +740,30 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1310507227}
+    - target: {fileID: 7863552017828826199, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 8379723930447772355, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_LineType
-      value: 2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379723930447772355, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_Velocity
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379723930447772355, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_Acceleration
+      value: 9.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379723930447772355, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_HoverToSelect
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8379723930447772355, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
@@ -794,6 +814,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OverrideInteractorLineLength
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9139617142490614733, guid: 1ec523df29cb83541ba79da132a4688b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6872886374587404300, guid: 1ec523df29cb83541ba79da132a4688b, type: 3}

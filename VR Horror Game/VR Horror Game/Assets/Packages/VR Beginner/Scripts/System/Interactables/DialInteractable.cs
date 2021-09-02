@@ -39,7 +39,7 @@ public class DialInteractable : XRBaseInteractable
     public int Steps = 0;
     public bool SnapOnRelease = true;
 
-    public AudioClip SnapAudioClip;
+    public AudioClip SnapAudioClip = null;
     
     public DialTurnedAngleEvent OnDialAngleChanged;
     public DialTurnedStepEvent OnDialStepChanged;
@@ -137,12 +137,15 @@ public class DialInteractable : XRBaseInteractable
                     
                     if (!Mathf.Approximately(finalAngle , m_CurrentAngle))
                     {
-                        SFXPlayer.Instance.PlaySFX(SnapAudioClip, transform.position, new SFXPlayer.PlayParameters()
+                        if (SnapAudioClip != null)
                         {
-                            Pitch = UnityEngine.Random.Range(0.9f, 1.1f),
-                            SourceID = -1,
-                            Volume = 1.0f
-                        }, 0.0f);
+                            SFXPlayer.Instance.PlaySFX(SnapAudioClip, transform.position, new SFXPlayer.PlayParameters()
+                            {
+                                Pitch = UnityEngine.Random.Range(0.9f, 1.1f),
+                                SourceID = -1,
+                                Volume = 1.0f
+                            }, 0.0f);
+                        }
                         
                         OnDialStepChanged.Invoke(step);
                         OnDialChanged.Invoke(this);
@@ -216,12 +219,15 @@ public class DialInteractable : XRBaseInteractable
             
             if (angle != m_CurrentAngle)
             {
-                SFXPlayer.Instance.PlaySFX(SnapAudioClip, transform.position, new SFXPlayer.PlayParameters()
+                if (SnapAudioClip != null)
                 {
-                    Pitch = UnityEngine.Random.Range(0.9f, 1.1f),
-                    SourceID = -1,
-                    Volume = 1.0f
-                }, 0.0f);
+                    SFXPlayer.Instance.PlaySFX(SnapAudioClip, transform.position, new SFXPlayer.PlayParameters()
+                    {
+                        Pitch = UnityEngine.Random.Range(0.9f, 1.1f),
+                        SourceID = -1,
+                        Volume = 1.0f
+                    }, 0.0f);
+                }
                 
                 OnDialStepChanged.Invoke(step);
                 OnDialChanged.Invoke(this);

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class HouseSetup : MonoBehaviour
 {
-    public Transform XRRig;
+    public GameObject XRRig;
     public Vector3 StartPosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        XRRig = GameObject.Find("XR Rig").transform;
-        XRRig.position = StartPosition;
+        XRRig = GameObject.Find("XR Rig");
+        XRRig.transform.position = StartPosition;
     }
 }

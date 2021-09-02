@@ -67,7 +67,6 @@ public class ScreenFader : MonoBehaviour
             fadeMaterial.SetFloat("_Alpha", alpha);
 
             yield return null;
-            Debug.Log(alpha);
         }
 
         alpha = endValue;
