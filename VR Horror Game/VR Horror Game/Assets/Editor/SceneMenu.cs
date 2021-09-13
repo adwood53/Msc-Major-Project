@@ -18,6 +18,11 @@ public static class SceneMenu
     {
         OpenScene("Maze");
     }
+    [MenuItem("Scenes/Test")]
+    public static void OpenTest()
+    {
+        OpenScene("Test");
+    }
 
 
     private static void OpenScene(string sceneName)
