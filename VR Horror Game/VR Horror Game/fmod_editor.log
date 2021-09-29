@@ -9,7 +9,7 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000207BAB92118 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001AAA83C9AD8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -88,137 +88,1647 @@
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
-[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SoundI::release                          :  (0000020842A55AE8)
-[LOG] SoundI::release                          :     Large book 1 (000002068A682598)
-[LOG] SoundI::release                          :  (0000020842A4EC38)
-[LOG] SoundI::release                          :     Large book 2 (000002068A6830F8)
-[LOG] SoundI::release                          :  (0000020842A4E678)
-[LOG] SoundI::release                          :     Large book 3 (000002068A683298)
-[LOG] SoundI::release                          :  (0000020842A55F38)
-[LOG] SoundI::release                          :     Large book 4 (000002068A682A78)
-[LOG] SoundI::release                          :  (0000020842A53138)
-[LOG] SoundI::release                          :     Large book 5 (000002068A687538)
-[LOG] SoundI::release                          :  (0000020842A54F68)
-[LOG] SoundI::release                          :     Magazine 1 (000002068A6820B8)
-[LOG] SoundI::release                          :  (0000020842A53588)
-[LOG] SoundI::release                          :     Magazine 2 (000002068A685178)
-[LOG] SoundI::release                          :  (0000020842A56668)
-[LOG] SoundI::release                          :     Magazine 3 (000002068A681078)
-[LOG] SoundI::release                          :  (0000020842A543E8)
-[LOG] SoundI::release                          :     Magazine 4 (000002068A6869D8)
-[LOG] SoundI::release                          :  (0000020842A525B8)
-[LOG] SoundI::release                          :     Small Box 1 (000002068A6835D8)
-[LOG] SoundI::release                          : Ending (00000207C15C0158)
-[LOG] SoundI::release                          :     Ending (000002068A681F18)
-[LOG] SoundI::release                          :     Ending (00000207C15C0308)
-[LOG] SoundI::release                          :  (0000020842A567D8)
-[LOG] SoundI::release                          :     Small Box 2 (000002068A682DB8)
-[LOG] SoundI::release                          :  (0000020842A546C8)
-[LOG] SoundI::release                          :     Small Box 3 (000002068A6828D8)
-[LOG] SoundI::release                          :  (0000020842A55DC8)
-[LOG] SoundI::release                          :     Small Box 4 (000002068A683918)
-[LOG] SoundI::release                          :  (0000020842A54558)
-[LOG] SoundI::release                          :     Small Box 5 (000002068A684958)
-[LOG] SoundI::release                          :  (0000020842A536F8)
-[LOG] SoundI::release                          :     Plate 1 (000002068A685318)
-[LOG] SoundI::release                          :  (0000020842A53F98)
-[LOG] SoundI::release                          :     Plate 2 (000002068A6823F8)
-[LOG] SoundI::release                          :  (0000020842A54278)
-[LOG] SoundI::release                          :     Plate 3 (000002068A681D78)
-[LOG] SoundI::release                          :  (0000020842A55978)
-[LOG] SoundI::release                          :     Plate 4 (000002068A683F98)
-[LOG] SoundI::release                          :  (0000020842A4EAC8)
-[LOG] SoundI::release                          :     Plate 5 (000002068A683438)
-[LOG] SoundI::release                          :  (0000020842A54108)
-[LOG] SoundI::release                          :     Pen 1 (000002068A684138)
-[LOG] SoundI::release                          :  (0000020842A550D8)
-[LOG] SoundI::release                          :     Pen 2 (000002068A686358)
-[LOG] SoundI::release                          :  (0000020842A55C58)
-[LOG] SoundI::release                          :     Pen 3 (000002068A681BD8)
-[LOG] SoundI::release                          :  (0000020842A571E8)
-[LOG] SoundI::release                          :     Pen 4 (000002068A683778)
-[LOG] SoundI::release                          :  (0000020842A549A8)
-[LOG] SoundI::release                          :     Liquid Bottle 1 (000002068A682738)
-[LOG] SoundI::release                          :  (0000020842A54B18)
-[LOG] SoundI::release                          :     Liquid Bottle 2 (000002068A6857F8)
-[LOG] SoundI::release                          :  (0000020842A57078)
-[LOG] SoundI::release                          :     Liquid Bottle 3 (000002068A686B78)
-[LOG] SoundI::release                          :  (0000020842A560A8)
-[LOG] SoundI::release                          :     Liquid Bottle 4 (000002068A682258)
-[LOG] SoundI::release                          :  (0000020842A57D68)
-[LOG] SoundI::release                          :     Liquid Bottle 5 (000002068A6861B8)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Affinity: 0x8000000000000003, Priority: 0xFFFF7FFC, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] SystemI::createSound                     : setdata soundi = 000001AB4A5FC6E8 : node = 000001AB7BF9DE90
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AB4A5FC6E8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB7BF9DFA0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 000001AB4A5FCA48 : node = 000001AB7BF9DFD0
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='police radio new', format=5, channels=2, frequency=48000, lengthbytes=940256, lengthpcm=6531448, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986511.
+[LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFC, Stack Size: 49152, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AB4A5FC6E8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AB4A5FCA48
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB7BF9E0E0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Car and walking', format=5, channels=2, frequency=48000, lengthbytes=2223488, lengthpcm=8498782, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.995361.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AB4A5FCA48
+[LOG] SoundI::release                          : Car and walking (000001AB4A5FCA48)
+[LOG] SoundI::release                          :     Car and walking (000001A9836CB598)
+[LOG] SoundI::release                          :     Car and walking (000001AB56290A58)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AB56291628 : node = 000001AB658263E0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AB56291628
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB658264F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Ending', format=5, channels=2, frequency=48000, lengthbytes=1022432, lengthpcm=3715239, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.960632.
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glitch 4', format=5, channels=2, frequency=48000, lengthbytes=43136, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.969147.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glitch 12 long ', format=5, channels=2, frequency=48000, lengthbytes=74400, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.990967.
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='glitch 15', format=5, channels=2, frequency=48000, lengthbytes=41280, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.948395.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AB56291628
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 10', format=5, channels=2, frequency=48000, lengthbytes=49216, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974365.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 14', format=5, channels=2, frequency=48000, lengthbytes=40192, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.957947.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name=' ', format=5, channels=2, frequency=48000, lengthbytes=52192, lengthpcm=290899, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.973724.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 7', format=5, channels=2, frequency=48000, lengthbytes=50816, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.982300.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 8', format=5, channels=2, frequency=48000, lengthbytes=51872, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.935913.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 6', format=5, channels=2, frequency=48000, lengthbytes=50816, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.952911.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 2', format=5, channels=2, frequency=48000, lengthbytes=40896, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.827026.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 11', format=5, channels=2, frequency=48000, lengthbytes=50816, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.990997.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 5', format=5, channels=2, frequency=48000, lengthbytes=30016, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986877.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 13 long', format=5, channels=2, frequency=48000, lengthbytes=64480, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.961975.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 1', format=5, channels=2, frequency=48000, lengthbytes=52192, lengthpcm=290899, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.973724.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 9', format=5, channels=2, frequency=48000, lengthbytes=28608, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.963409.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 3', format=5, channels=2, frequency=48000, lengthbytes=39680, lengthpcm=267075, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.972168.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6F9F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='glitch 16', format=5, channels=2, frequency=48000, lengthbytes=38752, lengthpcm=200620, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.966827.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Large book 3', format=5, channels=2, frequency=48000, lengthbytes=11200, lengthpcm=42631, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.841003.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 5', format=5, channels=2, frequency=48000, lengthbytes=12768, lengthpcm=51408, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974548.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Large book 2', format=5, channels=2, frequency=48000, lengthbytes=11488, lengthpcm=43885, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 2', format=5, channels=2, frequency=48000, lengthbytes=13088, lengthpcm=51408, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Liquid Bottle 3', format=5, channels=2, frequency=48000, lengthbytes=6528, lengthpcm=23823, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.969757.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 4', format=5, channels=2, frequency=48000, lengthbytes=17600, lengthpcm=68963, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Pen 1', format=5, channels=2, frequency=48000, lengthbytes=19360, lengthpcm=67709, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.947754.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 1', format=5, channels=2, frequency=48000, lengthbytes=11200, lengthpcm=42631, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.951050.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Large book 1', format=5, channels=2, frequency=48000, lengthbytes=14016, lengthpcm=53916, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.386322.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Magazine 2', format=5, channels=2, frequency=48000, lengthbytes=26720, lengthpcm=101564, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.731079.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Magazine 4', format=5, channels=2, frequency=48000, lengthbytes=19296, lengthpcm=75232, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.942017.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Liquid Bottle 1', format=5, channels=2, frequency=48000, lengthbytes=10624, lengthpcm=40124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988800.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Pen 3', format=5, channels=2, frequency=48000, lengthbytes=22048, lengthpcm=77740, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.918762.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Liquid Bottle 4', format=5, channels=2, frequency=48000, lengthbytes=13024, lengthpcm=43885, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.983856.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 3', format=5, channels=2, frequency=48000, lengthbytes=12608, lengthpcm=47647, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988129.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 5', format=5, channels=2, frequency=48000, lengthbytes=11744, lengthpcm=43885, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.998108.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 2', format=5, channels=2, frequency=48000, lengthbytes=9216, lengthpcm=36362, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.370605.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Large book 5', format=5, channels=2, frequency=48000, lengthbytes=16160, lengthpcm=62693, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Magazine 3', format=5, channels=2, frequency=48000, lengthbytes=20128, lengthpcm=77740, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.923706.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Liquid Bottle 2', format=5, channels=2, frequency=48000, lengthbytes=14208, lengthpcm=53916, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.994476.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Liquid Bottle 5', format=5, channels=2, frequency=48000, lengthbytes=15168, lengthpcm=51408, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.964142.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Pen 4', format=5, channels=2, frequency=48000, lengthbytes=19968, lengthpcm=65201, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.990234.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 4', format=5, channels=2, frequency=48000, lengthbytes=10336, lengthpcm=40124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.819763.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Magazine 1', format=5, channels=2, frequency=48000, lengthbytes=9280, lengthpcm=32600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.567108.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Pen 2', format=5, channels=2, frequency=48000, lengthbytes=18688, lengthpcm=62693, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.969666.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 3', format=5, channels=2, frequency=48000, lengthbytes=9536, lengthpcm=40124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.573120.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Large book 4', format=5, channels=2, frequency=48000, lengthbytes=19808, lengthpcm=77740, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.961700.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AB42D6FE18
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 1', format=5, channels=2, frequency=48000, lengthbytes=23616, lengthpcm=90279, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.539429.
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AADF85B3F8 : node = 000001AB73FBFAF0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AADF85B3F8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB73FBFC00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='intro', format=5, channels=2, frequency=48000, lengthbytes=666720, lengthpcm=2979213, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.985474.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AADF85B3F8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AC36B3AC98
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AC36B3AC98
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AAA99FD928 : node = 000001AC3734B210
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AAA99FD928
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AC3734B320
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 202500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Rain + Thunder', format=5, channels=2, frequency=48000, lengthbytes=4564192, lengthpcm=17209469, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.537811.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AAA99FD928
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AC37292248
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AC37292248
+[LOG] SoundI::release                          :  (000001AB32BF3878)
+[LOG] SoundI::release                          :     Small Box 1 (000001A9836CC0F8)
+[LOG] SoundI::release                          :  (000001ABF52B7C68)
+[LOG] SoundI::release                          :     Small Box 2 (000001A9B3A46298)
+[LOG] SoundI::release                          :  (000001AC968ECB88)
+[LOG] SoundI::release                          :     Small Box 3 (000001A982F070D8)
+[LOG] SoundI::release                          :  (000001AC968EC8A8)
+[LOG] SoundI::release                          :     Small Box 4 (000001A982F07A98)
+[LOG] SoundI::release                          :  (000001ABF52B7AF8)
+[LOG] SoundI::release                          :     Small Box 5 (000001A9B3A46438)
+[LOG] SoundI::release                          :  (000001ABF52B8678)
+[LOG] SoundI::release                          :     Liquid Bottle 1 (000001A9836CCAB8)
+[LOG] SoundI::release                          :  (000001ABF52B80B8)
+[LOG] SoundI::release                          :     Liquid Bottle 2 (000001A9B3A477B8)
+[LOG] SoundI::release                          :  (000001AB4A2B30F8)
+[LOG] SoundI::release                          :     Liquid Bottle 3 (000001A9836C9D38)
+[LOG] SoundI::release                          :  (000001ABF52B8398)
+[LOG] SoundI::release                          :     Liquid Bottle 4 (000001A9836C9ED8)
+[LOG] SoundI::release                          :  (000001ABF52B8228)
+[LOG] SoundI::release                          :     Liquid Bottle 5 (000001A9B3A453F8)
+[LOG] SoundI::release                          :  (000001AB4A2B3268)
+[LOG] SoundI::release                          :     Pen 1 (000001A9836CC778)
+[LOG] SoundI::release                          :  (000001AC968ECA18)
+[LOG] SoundI::release                          :     Pen 2 (000001A982F063D8)
+[LOG] SoundI::release                          :  (000001ABF52B8508)
+[LOG] SoundI::release                          :     Pen 3 (000001A9836C9B98)
+[LOG] SoundI::release                          : Ending (000001AB56291628)
+[LOG] SoundI::release                          :     Ending (000001A9836C9378)
+[LOG] SoundI::release                          :     Ending (000001AC37291D38)
+[LOG] SoundI::release                          : intro (000001AADF85B3F8)
+[LOG] SoundI::release                          :     intro (000001A9831DD848)
+[LOG] SoundI::release                          :     intro (000001AC36B3AC98)
+[LOG] SoundI::release                          :  (000001AC968ED148)
+[LOG] SoundI::release                          :     Pen 4 (000001A9B3A46778)
+[LOG] SoundI::release                          :  (000001AB32BF3E38)
+[LOG] SoundI::release                          :     Large book 1 (000001A9836C99F8)
+[LOG] SoundI::release                          :  (000001AB4A2B2CA8)
+[LOG] SoundI::release                          :     Large book 2 (000001A9836C9858)
+[LOG] SoundI::release                          :  (000001A98598C2A8)
+[LOG] SoundI::release                          :     Large book 3 (000001A9836CBA78)
+[LOG] SoundI::release                          :  (000001AC968ED2B8)
+[LOG] SoundI::release                          :     Large book 4 (000001A982F06D98)
+[LOG] SoundI::release                          :  (000001ABF52B7DD8)
+[LOG] SoundI::release                          :     Large book 5 (000001A9B3A465D8)
+[LOG] SoundI::release                          :  (000001AC968ECCF8)
+[LOG] SoundI::release                          :     Magazine 1 (000001A982F06F38)
+[LOG] SoundI::release                          :  (000001AB32BF3B58)
+[LOG] SoundI::release                          :     Magazine 2 (000001A9836CC918)
+[LOG] SoundI::release                          :  (000001ABF52B7F48)
+[LOG] SoundI::release                          :     Magazine 3 (000001A9B3A450B8)
+[LOG] SoundI::release                          :  (000001AB32BF39E8)
+[LOG] SoundI::release                          :     Magazine 4 (000001A9836CA078)
+[LOG] SoundI::release                          :  (000001AC968ECE68)
+[LOG] SoundI::release                          :     Plate 1 (000001A982F06A58)
+[LOG] SoundI::release                          :  (000001AB4A2B2E18)
+[LOG] SoundI::release                          :     Plate 2 (000001A9836CA898)
+[LOG] SoundI::release                          :  (000001ABF52B7988)
+[LOG] SoundI::release                          :     Plate 3 (000001A9B3A44F18)
+[LOG] SoundI::release                          :  (000001AB4A2B29C8)
+[LOG] SoundI::release                          :     Plate 4 (000001A9836CBF58)
+[LOG] SoundI::release                          :  (000001A98598C418)
+[LOG] SoundI::release                          :     Plate 5 (000001A9836C96B8)
+[LOG] SoundI::release                          :  (000001AB56F618D8)
+[LOG] SoundI::release                          :       (000001A9836CAD78)
+[LOG] SoundI::release                          :  (000001AB56F61BB8)
+[LOG] SoundI::release                          :     glitch 12 long  (000001A9836CBDB8)
+[LOG] SoundI::release                          :  (000001A98598C6F8)
+[LOG] SoundI::release                          :     glitch 13 long (000001A9836CBC18)
+[LOG] SoundI::release                          :  (000001AB56F62A18)
+[LOG] SoundI::release                          :     glitch 14 (000001A9836CC5D8)
+[LOG] SoundI::release                          :  (000001AB56F61768)
+[LOG] SoundI::release                          :     glitch 15 (000001A9836CB258)
+[LOG] SoundI::release                          :  (000001A98598C138)
+[LOG] SoundI::release                          :     glitch 16 (000001A9836CB8D8)
+[LOG] SoundI::release                          :  (000001AB56F62008)
+[LOG] SoundI::release                          :     glitch 2 (000001A9836CB3F8)
+[LOG] SoundI::release                          :  (000001A98598CE28)
+[LOG] SoundI::release                          :     glitch 3 (000001A9836C9518)
+[LOG] SoundI::release                          :  (000001A98598C9D8)
+[LOG] SoundI::release                          :     glitch 1 (000001A9836CA6F8)
+[LOG] SoundI::release                          :  (000001AB56F62B88)
+[LOG] SoundI::release                          :     glitch 4 (000001A9836CA558)
+[LOG] SoundI::release                          :  (000001AB56F62738)
+[LOG] SoundI::release                          :     glitch 5 (000001A9836CC298)
+[LOG] SoundI::release                          :  (000001AB56F61E98)
+[LOG] SoundI::release                          :     glitch 6 (000001A9836CAA38)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AB4A5FD2B8 : node = 000001AB7BF9C450
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AB4A5FD2B8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB7BF9C560
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Screams', format=5, channels=2, frequency=48000, lengthbytes=400832, lengthpcm=2307134, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.984772.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AB4A5FD2B8
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='drum hit 5', format=5, channels=2, frequency=48000, lengthbytes=50688, lengthpcm=195604, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.911285.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='drum hit 4', format=5, channels=2, frequency=48000, lengthbytes=100576, lengthpcm=367386, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.978912.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='drum hit 3', format=5, channels=2, frequency=48000, lengthbytes=95328, lengthpcm=367386, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.868713.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='dis drum 5', format=5, channels=2, frequency=48000, lengthbytes=45792, lengthpcm=117864, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 5', format=5, channels=2, frequency=48000, lengthbytes=12768, lengthpcm=51408, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974548.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 2', format=5, channels=2, frequency=48000, lengthbytes=13088, lengthpcm=51408, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 4', format=5, channels=2, frequency=48000, lengthbytes=17600, lengthpcm=68963, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Magazine 2', format=5, channels=2, frequency=48000, lengthbytes=26720, lengthpcm=101564, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.731079.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Magazine 4', format=5, channels=2, frequency=48000, lengthbytes=19296, lengthpcm=75232, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.942017.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='dis drum 3', format=5, channels=2, frequency=48000, lengthbytes=38976, lengthpcm=117864, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 3', format=5, channels=2, frequency=48000, lengthbytes=12608, lengthpcm=47647, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988129.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='dis drum 2', format=5, channels=2, frequency=48000, lengthbytes=33632, lengthpcm=117864, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.957794.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Magazine 3', format=5, channels=2, frequency=48000, lengthbytes=20128, lengthpcm=77740, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.923706.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='dis drum 4', format=5, channels=2, frequency=48000, lengthbytes=27840, lengthpcm=117864, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.973083.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='whistle 4', format=5, channels=2, frequency=48000, lengthbytes=22880, lengthpcm=175542, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.987946.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='whistle 3', format=5, channels=2, frequency=48000, lengthbytes=24704, lengthpcm=175542, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.987976.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Magazine 1', format=5, channels=2, frequency=48000, lengthbytes=9280, lengthpcm=32600, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.567108.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='drum hit 6', format=5, channels=2, frequency=48000, lengthbytes=95296, lengthpcm=348577, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.938812.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='drum hit 2', format=5, channels=2, frequency=48000, lengthbytes=75776, lengthpcm=367386, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.973907.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='whistle 2', format=5, channels=2, frequency=48000, lengthbytes=26560, lengthpcm=175542, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988739.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='dis drum 1', format=5, channels=2, frequency=48000, lengthbytes=37568, lengthpcm=156734, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.983704.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='whistle 1', format=5, channels=2, frequency=48000, lengthbytes=23840, lengthpcm=175542, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988281.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='whistle 5', format=5, channels=2, frequency=48000, lengthbytes=24096, lengthpcm=175542, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988678.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000018321FEEF8
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFD1D3C7EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFD1D3C7E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFD1D3C7F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFD1D3C8050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AAD5F92808
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Plate 1', format=5, channels=2, frequency=48000, lengthbytes=23616, lengthpcm=90279, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.539429.
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AB477C1AD8 : node = 000001AB7BF9E890
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AB477C1AD8
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     setdata soundi = 000001AB477C2198 : node = 000001AB7BF9DFD0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB7BF9E9A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='maze intro 4', format=5, channels=2, frequency=48000, lengthbytes=292480, lengthpcm=2307134, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.998322.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AB477C1AD8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AB477C2198
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB7BF9E0E0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='maze intro 1', format=5, channels=2, frequency=48000, lengthbytes=311360, lengthpcm=1538507, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.968994.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AB477C2198
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AC36B3AC98
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AC36B3AC98
+[LOG] SoundI::release                          :  (000001AB56F60D58)
+[LOG] SoundI::release                          :     glitch 7 (000001A9836CA218)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AADF85BAB8 : node = 000001AB73FBF870
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AADF85BAB8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB73FBF980
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='maze intro 2', format=5, channels=2, frequency=48000, lengthbytes=500736, lengthpcm=1999934, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.985321.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AADF85BAB8
+[LOG] SoundI::release                          : Rain + Thunder (000001AAA99FD928)
+[LOG] SoundI::release                          :     Rain + Thunder (000001AADFAB5CA8)
+[LOG] SoundI::release                          :     Rain + Thunder (000001AC37292248)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AB58C64C98 : node = 000001A98503C290
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AB58C64C98
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001A98503C3A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='maze intro 3', format=5, channels=2, frequency=48000, lengthbytes=352608, lengthpcm=1385534, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.977264.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AB58C64C98
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001A98ABD08F8 : node = 000001AB7BF9E110
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A98ABD08F8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB7BF9E220
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bass', format=5, channels=2, frequency=48000, lengthbytes=116096, lengthpcm=1251369, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974457.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A98ABD08F8
+[LOG] SoundI::release                          : maze intro 3 (000001AB58C64C98)
+[LOG] SoundI::release                          :     maze intro 3 (000001A9836CA218)
+[LOG] SoundI::release                          :     maze intro 3 (000001AC94AD3938)
+[LOG] SoundI::release                          : maze intro 2 (000001AADF85BAB8)
+[LOG] SoundI::release                          :     maze intro 2 (000001A9836CA078)
+[LOG] SoundI::release                          :     maze intro 2 (000001AC94AD3278)
+[LOG] SoundI::release                          : maze intro 1 (000001AB477C2198)
+[LOG] SoundI::release                          :     maze intro 1 (000001A9836CBC18)
+[LOG] SoundI::release                          :     maze intro 1 (000001AB56290A58)
+[LOG] SoundI::release                          : maze intro 4 (000001AB477C1AD8)
+[LOG] SoundI::release                          :     maze intro 4 (000001A9836CB258)
+[LOG] SoundI::release                          :     maze intro 4 (000001AC36B3A788)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001A98ABD0088 : node = 000001AB7BF9E890
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A98ABD0088
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB7BF9E9A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='vinyl keys', format=5, channels=2, frequency=48000, lengthbytes=1794880, lengthpcm=6838648, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.987640.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A98ABD0088
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AC95726F18 : node = 000001AA41EAAB20
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AC95726F18
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA41EAAC30
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 1951
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bass', format=5, channels=2, frequency=48000, lengthbytes=116096, lengthpcm=1251369, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974457.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AC95726F18
+[LOG] SoundI::release                          : bass (000001A98ABD08F8)
+[LOG] SoundI::release                          :     bass (000001A9836CA898)
+[LOG] SoundI::release                          :     bass (000001AC94AD3428)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AADF85BAB8 : node = 000001AB73FBFAF0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AADF85BAB8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB73FBFC00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 1951
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bass', format=5, channels=2, frequency=48000, lengthbytes=116096, lengthpcm=1251369, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974457.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AADF85BAB8
+[LOG] SoundI::release                          : bass (000001AC95726F18)
+[LOG] SoundI::release                          :     bass (000001A9836CA218)
+[LOG] SoundI::release                          :     bass (000001AC94AD3278)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AAC4F50AF8 : node = 000001AC37551310
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AAC4F50AF8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AC37551420
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 1951
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bass', format=5, channels=2, frequency=48000, lengthbytes=116096, lengthpcm=1251369, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974457.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AAC4F50AF8
+[LOG] SoundI::release                          : bass (000001AADF85BAB8)
+[LOG] SoundI::release                          :     bass (000001A9836CA898)
+[LOG] SoundI::release                          :     bass (000001AC94AD35D8)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AADEE033F8 : node = 000001AB47DE5380
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AADEE033F8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB47DE5490
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 1951
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bass', format=5, channels=2, frequency=48000, lengthbytes=116096, lengthpcm=1251369, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974457.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AADEE033F8
+[LOG] SoundI::release                          : bass (000001AAC4F50AF8)
+[LOG] SoundI::release                          :     bass (000001A9836CA218)
+[LOG] SoundI::release                          :     bass (000001AC94AD4358)
+[LOG] SoundI::release                          : Screams (000001AB4A5FD2B8)
+[LOG] SoundI::release                          :     Screams (000001A9831DD848)
+[LOG] SoundI::release                          :     Screams (000001AC36B3AC98)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AC95725E38 : node = 000001AA41EAAC60
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AC95725E38
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA41EAAD70
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 1951
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bass', format=5, channels=2, frequency=48000, lengthbytes=116096, lengthpcm=1251369, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974457.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AC95725E38
+[LOG] SoundI::release                          : bass (000001AADEE033F8)
+[LOG] SoundI::release                          :     bass (000001A9836CA898)
+[LOG] SoundI::release                          :     bass (000001AB56290A58)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AC95726198 : node = 000001AA41EA85A0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AC95726198
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AA41EA86B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bass', format=5, channels=2, frequency=48000, lengthbytes=116096, lengthpcm=1251369, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974457.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AC95726198
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AB56291628
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AB56291628
+[LOG] SoundI::release                          : bass (000001AC95725E38)
+[LOG] SoundI::release                          :     bass (000001A9836CA218)
+[LOG] SoundI::release                          :     bass (000001AC94AD3278)
+[WRN] PlaylistInstrumentInstance::startFullLengthHook : Attempting to schedule a sound in the past, this could cause inaccurate playback.
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001A98ABD0C58 : node = 000001AB7BF9C590
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001A98ABD0C58
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB7BF9C6A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='drum hit', format=5, channels=2, frequency=48000, lengthbytes=89984, lengthpcm=387448, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.950592.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001A98ABD0C58
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AADF85B3F8 : node = 000001AB73FBF9B0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001A9B3135E28.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AADF85B3F8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 37901600
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 156448
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AB73FBFAC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 1951
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bass', format=5, channels=2, frequency=48000, lengthbytes=116096, lengthpcm=1251369, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.974457.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AADF85B3F8
+[LOG] SoundI::release                          : bass (000001AC95726198)
+[LOG] SoundI::release                          :     bass (000001A9836CA898)
+[LOG] SoundI::release                          :     bass (000001AB56291628)
+[LOG] SoundI::release                          :  (000001AB56F61038)
+[LOG] SoundI::release                          :     glitch 8 (000001A9836CABD8)
+[LOG] SoundI::release                          :  (000001A98598C588)
+[LOG] SoundI::release                          :     glitch 9 (000001A9836CC438)
+[LOG] SoundI::release                          :  (000001AB56F61488)
+[LOG] SoundI::release                          :     glitch 10 (000001A9836C9038)
+[LOG] SoundI::release                          :  (000001AB56F62178)
+[LOG] SoundI::release                          :     glitch 11 (000001A9836CB598)
+[LOG] SoundI::release                          :  (000001AC96135818)
+[LOG] SoundI::release                          :     Plate 1 (000001A9836C9ED8)
+[LOG] SoundI::release                          :  (000001AB7B9E0C78)
+[LOG] SoundI::release                          :     Plate 2 (000001A9836CBA78)
+[LOG] SoundI::release                          :  (000001AB7B9E13A8)
+[LOG] SoundI::release                          :     Plate 3 (000001A9836C9518)
+[LOG] SoundI::release                          :  (000001AB7B9E1238)
+[LOG] SoundI::release                          :     Plate 4 (000001A9836CC918)
+[LOG] SoundI::release                          :  (000001AB7B9E1518)
+[LOG] SoundI::release                          :     Plate 5 (000001A9836CBF58)
+[LOG] SoundI::release                          :  (000001AAD61DDD58)
+[LOG] SoundI::release                          :     dis drum 1 (000001A9836C99F8)
+[LOG] SoundI::release                          :  (000001AB7B9E17F8)
+[LOG] SoundI::release                          :     dis drum 2 (000001A9836C9378)
+[LOG] SoundI::release                          :  (000001AB7B9E0F58)
+[LOG] SoundI::release                          :     dis drum 3 (000001A9836C9D38)
+[LOG] SoundI::release                          :  (000001AAD61DE038)
+[LOG] SoundI::release                          :     dis drum 4 (000001A9836CAD78)
+[LOG] SoundI::release                          :  (000001AB7B9E10C8)
+[LOG] SoundI::release                          :     dis drum 5 (000001A9836CB8D8)
+[LOG] SoundI::release                          :  (000001AAD61DE5F8)
+[LOG] SoundI::release                          :     whistle 1 (000001A9836CA6F8)
+[LOG] SoundI::release                          :  (000001AAD61DEA48)
+[LOG] SoundI::release                          :     whistle 2 (000001A9836C9858)
+[LOG] SoundI::release                          :  (000001AAD61DE768)
+[LOG] SoundI::release                          :     whistle 3 (000001A9836C96B8)
+[LOG] SoundI::release                          :  (000001AAD61DDEC8)
+[LOG] SoundI::release                          :     whistle 4 (000001A9836CC298)
+[LOG] SoundI::release                          :  (000001AAD61DE318)
+[LOG] SoundI::release                          :     whistle 5 (000001A9836CA558)
+[LOG] SoundI::release                          :  (000001AAD61DE1A8)
+[LOG] SoundI::release                          :     drum hit 2 (000001A9836CCAB8)
+[LOG] SoundI::release                          :  (000001AAA9E2EDF8)
+[LOG] SoundI::release                          :     drum hit 3 (000001A9831DC328)
+[LOG] SoundI::release                          :  (000001AAA9E2F528)
+[LOG] SoundI::release                          :     drum hit 4 (000001A9831DBFE8)
+[LOG] SoundI::release                          : drum hit (000001A98ABD0C58)
+[LOG] SoundI::release                          :     drum hit (000001A9836CA218)
+[LOG] SoundI::release                          :     drum hit (000001AB56290A58)
+[LOG] SoundI::release                          : vinyl keys (000001A98ABD0088)
+[LOG] SoundI::release                          :     vinyl keys (000001A9836CA078)
+[LOG] SoundI::release                          :     vinyl keys (000001AC94AD4508)
+[LOG] SoundI::release                          : bass (000001AADF85B3F8)
+[LOG] SoundI::release                          :     bass (000001A9836CAA38)
+[LOG] SoundI::release                          :     bass (000001AAA99FD778)
+[LOG] SoundI::release                          : police radio new (000001AB4A5FC6E8)
+[LOG] SoundI::release                          :     police radio new (000001A9836C8E98)
+[LOG] SoundI::release                          :     police radio new (000001AB56291478)
+[LOG] SoundI::release                          :  (000001AAA9E2F0D8)
+[LOG] SoundI::release                          :     drum hit 5 (000001A9831DBE48)
+[LOG] SoundI::release                          :  (000001AAD61DE488)
+[LOG] SoundI::release                          :     drum hit 6 (000001A9836CC5D8)
+[LOG] SoundI::release                          :  (000001AAD61DE8D8)
+[LOG] SoundI::release                          :     Magazine 1 (000001A9836CBDB8)
+[LOG] SoundI::release                          :  (000001AB7B9E1688)
+[LOG] SoundI::release                          :     Magazine 2 (000001A9836C9B98)
+[LOG] SoundI::release                          :  (000001AB7B9E1968)
+[LOG] SoundI::release                          :     Magazine 3 (000001A9836CC0F8)
+[LOG] SoundI::release                          :  (000001AB7B9E0DE8)
+[LOG] SoundI::release                          :     Magazine 4 (000001A9836CC778)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients

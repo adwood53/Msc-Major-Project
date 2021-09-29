@@ -649,7 +649,7 @@ MonoBehaviour:
   - {fileID: 1797273665}
   sceneObject: {fileID: 503292046}
   nextScene: House_clean
-  skipIntro: 0
+  skipIntro: 1
 --- !u!4 &732871263
 Transform:
   m_ObjectHideFlags: 0
