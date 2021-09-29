@@ -9,7 +9,7 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001E27725C4E8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 00000207BAB92118 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -88,3 +88,144 @@
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SoundI::release                          :  (0000020842A55AE8)
+[LOG] SoundI::release                          :     Large book 1 (000002068A682598)
+[LOG] SoundI::release                          :  (0000020842A4EC38)
+[LOG] SoundI::release                          :     Large book 2 (000002068A6830F8)
+[LOG] SoundI::release                          :  (0000020842A4E678)
+[LOG] SoundI::release                          :     Large book 3 (000002068A683298)
+[LOG] SoundI::release                          :  (0000020842A55F38)
+[LOG] SoundI::release                          :     Large book 4 (000002068A682A78)
+[LOG] SoundI::release                          :  (0000020842A53138)
+[LOG] SoundI::release                          :     Large book 5 (000002068A687538)
+[LOG] SoundI::release                          :  (0000020842A54F68)
+[LOG] SoundI::release                          :     Magazine 1 (000002068A6820B8)
+[LOG] SoundI::release                          :  (0000020842A53588)
+[LOG] SoundI::release                          :     Magazine 2 (000002068A685178)
+[LOG] SoundI::release                          :  (0000020842A56668)
+[LOG] SoundI::release                          :     Magazine 3 (000002068A681078)
+[LOG] SoundI::release                          :  (0000020842A543E8)
+[LOG] SoundI::release                          :     Magazine 4 (000002068A6869D8)
+[LOG] SoundI::release                          :  (0000020842A525B8)
+[LOG] SoundI::release                          :     Small Box 1 (000002068A6835D8)
+[LOG] SoundI::release                          : Ending (00000207C15C0158)
+[LOG] SoundI::release                          :     Ending (000002068A681F18)
+[LOG] SoundI::release                          :     Ending (00000207C15C0308)
+[LOG] SoundI::release                          :  (0000020842A567D8)
+[LOG] SoundI::release                          :     Small Box 2 (000002068A682DB8)
+[LOG] SoundI::release                          :  (0000020842A546C8)
+[LOG] SoundI::release                          :     Small Box 3 (000002068A6828D8)
+[LOG] SoundI::release                          :  (0000020842A55DC8)
+[LOG] SoundI::release                          :     Small Box 4 (000002068A683918)
+[LOG] SoundI::release                          :  (0000020842A54558)
+[LOG] SoundI::release                          :     Small Box 5 (000002068A684958)
+[LOG] SoundI::release                          :  (0000020842A536F8)
+[LOG] SoundI::release                          :     Plate 1 (000002068A685318)
+[LOG] SoundI::release                          :  (0000020842A53F98)
+[LOG] SoundI::release                          :     Plate 2 (000002068A6823F8)
+[LOG] SoundI::release                          :  (0000020842A54278)
+[LOG] SoundI::release                          :     Plate 3 (000002068A681D78)
+[LOG] SoundI::release                          :  (0000020842A55978)
+[LOG] SoundI::release                          :     Plate 4 (000002068A683F98)
+[LOG] SoundI::release                          :  (0000020842A4EAC8)
+[LOG] SoundI::release                          :     Plate 5 (000002068A683438)
+[LOG] SoundI::release                          :  (0000020842A54108)
+[LOG] SoundI::release                          :     Pen 1 (000002068A684138)
+[LOG] SoundI::release                          :  (0000020842A550D8)
+[LOG] SoundI::release                          :     Pen 2 (000002068A686358)
+[LOG] SoundI::release                          :  (0000020842A55C58)
+[LOG] SoundI::release                          :     Pen 3 (000002068A681BD8)
+[LOG] SoundI::release                          :  (0000020842A571E8)
+[LOG] SoundI::release                          :     Pen 4 (000002068A683778)
+[LOG] SoundI::release                          :  (0000020842A549A8)
+[LOG] SoundI::release                          :     Liquid Bottle 1 (000002068A682738)
+[LOG] SoundI::release                          :  (0000020842A54B18)
+[LOG] SoundI::release                          :     Liquid Bottle 2 (000002068A6857F8)
+[LOG] SoundI::release                          :  (0000020842A57078)
+[LOG] SoundI::release                          :     Liquid Bottle 3 (000002068A686B78)
+[LOG] SoundI::release                          :  (0000020842A560A8)
+[LOG] SoundI::release                          :     Liquid Bottle 4 (000002068A682258)
+[LOG] SoundI::release                          :  (0000020842A57D68)
+[LOG] SoundI::release                          :     Liquid Bottle 5 (000002068A6861B8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.

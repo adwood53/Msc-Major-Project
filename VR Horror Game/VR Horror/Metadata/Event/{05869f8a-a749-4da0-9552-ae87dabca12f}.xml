@@ -235,7 +235,7 @@
 			<value>ApplyOccl</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -406,7 +406,7 @@
 			<value>Occlusion</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0.394999981</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>
