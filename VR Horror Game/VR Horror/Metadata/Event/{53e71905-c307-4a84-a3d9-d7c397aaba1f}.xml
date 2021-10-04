@@ -100,9 +100,6 @@
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
-		<relationship name="modulators">
-			<destination>{baa5afb8-20df-415a-819b-9bcf9179019c}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{f10d3f6e-99cf-49cf-a224-5fe23b79b701}</destination>
 		</relationship>
@@ -121,20 +118,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{08037594-56f5-43d7-9014-6a9c7aee9032}" />
 	<object class="MixerBusFader" id="{32cd5720-582e-462f-b573-f36f1878cb54}" />
-	<object class="ADSRModulator" id="{baa5afb8-20df-415a-819b-9bcf9179019c}">
-		<property name="nameOfPropertyBeingModulated">
-			<value>volume</value>
-		</property>
-		<property name="initialValue">
-			<value>-80</value>
-		</property>
-		<property name="releaseTime">
-			<value>7057.69189</value>
-		</property>
-		<property name="finalValue">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="MixerBusEffectChain" id="{f10d3f6e-99cf-49cf-a224-5fe23b79b701}">
 		<relationship name="effects">
 			<destination>{a6718443-1424-4799-b01d-5a3be9730c78}</destination>
@@ -190,6 +173,7 @@
 		<property name="name">
 			<value>SourcePos</value>
 		</property>
+		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -198,6 +182,7 @@
 		<property name="name">
 			<value>OverallGain</value>
 		</property>
+		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -249,7 +234,7 @@
 			<value>ApplyOccl</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -420,7 +405,7 @@
 			<value>Occlusion</value>
 		</property>
 		<property name="value">
-			<value>0.394999981</value>
+			<value>1</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>
@@ -526,6 +511,7 @@
 		<property name="name">
 			<value>SimOutputs</value>
 		</property>
+		<property name="value" />
 		<property name="dataType">
 			<value>0</value>
 		</property>
