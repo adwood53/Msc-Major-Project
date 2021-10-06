@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1626871016711454695
 Transform:
@@ -111,12 +111,12 @@ GameObject:
   - component: {fileID: 6189845127003432742}
   - component: {fileID: 6189845127003432743}
   - component: {fileID: 2948955531514691520}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Side_table_C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5939128762280280273
 Transform:
@@ -318,6 +318,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1208917331408935959, guid: 46eae614a212c3047a5cdc45fcf7a4ed,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1985312576321423021, guid: 46eae614a212c3047a5cdc45fcf7a4ed,
         type: 3}
       propertyPath: m_RootOrder
@@ -391,7 +396,7 @@ PrefabInstance:
     - target: {fileID: 5037200146682305914, guid: 46eae614a212c3047a5cdc45fcf7a4ed,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5271132452604502057, guid: 46eae614a212c3047a5cdc45fcf7a4ed,
         type: 3}

@@ -7,12 +7,7 @@ public class DoorUnlock : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (GameData.Instance.Level > 0) GetComponent<Rigidbody>().isKinematic = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

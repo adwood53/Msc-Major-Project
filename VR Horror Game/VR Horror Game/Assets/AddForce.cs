@@ -25,7 +25,7 @@ public class AddForce : MonoBehaviour
         trigger = false;
     }
 
-    void addForce()
+    public void addForce()
     {
         if(isExplosion)
         {

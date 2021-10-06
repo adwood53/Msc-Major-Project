@@ -56,7 +56,7 @@ public class SceneLoader : Singleton<SceneLoader>
             float duration = screenFader.FadeIn();
             yield return new WaitForSeconds(duration);
         }
-
+        yield return new WaitForEndOfFrame();
         yield return StartCoroutine(UnloadCurrent());
 
         if (debugTime) // Adds debug delay
