@@ -4,28 +4,28 @@ using UnityEngine;
 
 public class GameData : Singleton<GameData>
 {
-    [SerializeField] private int level = 0;
-    [SerializeField] private int fearLevel = 0;
+    [SerializeField] private short level = 0;
+    [SerializeField] private short fearLevel = 0;
 
-    public int Level
+    public short Level
     {
         get { return level; }
         set { level = value; }
     }
 
-    public int LevelUp()
+    public short LevelUp()
     {
         level++;
         return level;
     }
 
-    public int FearLevel
+    public short FearLevel
     {
         get { return fearLevel; }
         set { fearLevel = value; }
     }
 
-    public int FearLevelUp()
+    public short FearLevelUp()
     {
         fearLevel++;
         return fearLevel;
