@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; 
 
 public class SceneLoader : Singleton<SceneLoader>
 {
-
+    public UnityEngine.XR.Interaction.Toolkit.XRInteractionManager xrinteractionManager;
     public UnityEvent OnLoadBegin = new UnityEvent();
     public UnityEvent OnLoadEnd = new UnityEvent();
-    
+
     public ScreenFader screenFader = null;
     private bool isLoading = false;
 
@@ -108,6 +108,7 @@ public class SceneLoader : Singleton<SceneLoader>
     {
         yield return new WaitForEndOfFrame();
         SceneManager.SetActiveScene(scene);
+        xrinteractionManager = new UnityEngine.XR.Interaction.Toolkit.XRInteractionManager();
         screenFader.FadeOut();;
     }
 }

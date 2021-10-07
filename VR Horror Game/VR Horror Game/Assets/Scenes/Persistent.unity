@@ -314,7 +314,7 @@ Transform:
   m_Children:
   - {fileID: 2629855498804092146}
   - {fileID: 2135300848}
-  - {fileID: 1310507228}
+  - {fileID: 773617405}
   - {fileID: 1035132560543711998}
   - {fileID: 885021971}
   - {fileID: 513407177}
@@ -322,6 +322,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &773617404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 773617405}
+  - component: {fileID: 773617406}
+  m_Layer: 0
+  m_Name: XR Interaction Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &773617405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773617404}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.93017, y: -0.4674169, z: -4.245402}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 539386523}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &773617406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773617404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &808215532
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,49 +502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7448815bd5148434682b3d931066cd10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1310507226
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1310507228}
-  - component: {fileID: 1310507227}
-  m_Layer: 0
-  m_Name: XR Interaction Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1310507227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310507226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1310507228
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310507226}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 539386523}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1385645022 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1035132560580585926, guid: 1ec523df29cb83541ba79da132a4688b,
@@ -855,7 +855,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 1310507227}
+      objectReference: {fileID: 0}
     - target: {fileID: 3778958606040861492, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_RaycastMask.m_Bits
@@ -870,7 +870,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 1310507227}
+      objectReference: {fileID: 0}
     - target: {fileID: 4620626272013386325, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_IsActive
@@ -890,7 +890,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 1310507227}
+      objectReference: {fileID: 0}
     - target: {fileID: 6563688287628671144, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_InteractionLayerMask.m_Bits
@@ -910,7 +910,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 1310507227}
+      objectReference: {fileID: 0}
     - target: {fileID: 7863552017828826199, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_TagString
@@ -960,7 +960,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InteractionManager
       value: 
-      objectReference: {fileID: 1310507227}
+      objectReference: {fileID: 0}
     - target: {fileID: 8379723930447772355, guid: 1ec523df29cb83541ba79da132a4688b,
         type: 3}
       propertyPath: m_RaycastMask.m_Bits
@@ -1152,6 +1152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ebdfaf90cfaba41b532c7484d8400b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xrinteractionManager: {fileID: 773617406}
   OnLoadBegin:
     m_PersistentCalls:
       m_Calls: []
