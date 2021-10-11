@@ -11,7 +11,7 @@ public class ResetPosition : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (!rb.GetComponent<Rigidbody>()) rb = null;
+        if (!gameObject.GetComponent<Rigidbody>()) rb = null;
         pos = transform.position;
         rot = transform.rotation;
     }

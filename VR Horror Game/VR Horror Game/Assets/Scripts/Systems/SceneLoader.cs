@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class SceneLoader : Singleton<SceneLoader>
 {
-    public UnityEngine.XR.Interaction.Toolkit.XRInteractionManager xrinteractionManager;
+    public GameObject xrinteractionManagerObject;
+    private XRInteractionManager xrinteractionManager;
+    public XRBaseInteractor[] interactors;
     public UnityEvent OnLoadBegin = new UnityEvent();
     public UnityEvent OnLoadEnd = new UnityEvent();
 
@@ -20,6 +23,7 @@ public class SceneLoader : Singleton<SceneLoader>
     private void Awake()
     {
         SceneManager.sceneLoaded += SetActiveScene; // Attaches the set active scene function to the SceneManager.sceneLoaded action
+        xrinteractionManager = xrinteractionManagerObject.GetComponent<XRInteractionManager>();
     }
 
     private void OnDestroy()
@@ -62,6 +66,12 @@ public class SceneLoader : Singleton<SceneLoader>
         if (debugTime) // Adds debug delay
             yield return new WaitForSeconds(8.0f);
 
+        xrinteractionManager = xrinteractionManagerObject.AddComponent<XRInteractionManager>() as XRInteractionManager;
+        foreach (var item in interactors)
+        {
+            item.interactionManager = xrinteractionManager;
+        }
+
         // Loads new scene, unfades screen and triggers OnLoadEnd event
         yield return StartCoroutine(LoadNew(sceneName));
         OnLoadEnd?.Invoke();
@@ -73,10 +83,13 @@ public class SceneLoader : Singleton<SceneLoader>
 
     private IEnumerator UnloadCurrent()
     {
+        Destroy(xrinteractionManager);
         AsyncOperation unloadOperation = SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
 
         while (!unloadOperation.isDone)
+        {
             yield return null;
+        }
     }
 
     private IEnumerator LoadNew(string sceneName)
@@ -108,7 +121,6 @@ public class SceneLoader : Singleton<SceneLoader>
     {
         yield return new WaitForEndOfFrame();
         SceneManager.SetActiveScene(scene);
-        xrinteractionManager = new UnityEngine.XR.Interaction.Toolkit.XRInteractionManager();
         screenFader.FadeOut();;
     }
 }

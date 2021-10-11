@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000004, guid: 429a0b879361074478445a218ef639f5,
+  m_LightingDataAsset: {fileID: 112000004, guid: 1397310e4f6d1114aa0a03d480036ba1,
     type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 25677a3bb1d04e64eb9d18e7071ebcae,
     type: 2}
@@ -495,10 +495,15 @@ MonoBehaviour:
   staticTime: 6
   breakTime: 0
   texts:
-  - VR Horror Game Alpha v0.4
-  - 'Technical Developer: Anthony Woodward'
-  - 'Composer: Harri Bettsworth'
+  - Out Of Sight v1
   - Headphones are Recommended for this Experience.
+  - 
+  - 'Police Report: '
+  - Domestic dispute at a household.
+  - Adult Male, Adult Female and Female Child documented as living at this address.
+  - Get to the property and find out what's going on.
+  - 
+  - Created by Anthony Woodward and Harri Bettsworth
 --- !u!222 &375574815
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1088,7 +1093,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 5
@@ -1107,7 +1112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2116220167}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -1.1355019, y: 0.90119016, z: -5.3172994}
+  m_LocalPosition: {x: -4.45, y: 0.90119016, z: 1.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SimpleOpenClose : MonoBehaviour
 {
-    private Animator myAnimator;
+    [SerializeField] private Animator myAnimator;
     private Animator additionalAnimator;
     public bool objectOpen;
     public bool objectOpenAdditional;

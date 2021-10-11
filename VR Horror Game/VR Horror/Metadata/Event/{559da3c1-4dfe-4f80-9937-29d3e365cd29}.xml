@@ -95,9 +95,6 @@
 		<property name="timelockedOffset">
 			<value>202.5</value>
 		</property>
-		<relationship name="fadeInCurve">
-			<destination>{ebfc4cc0-746d-4373-8ba6-de6e07eeed86}</destination>
-		</relationship>
 		<relationship name="fadeOutCurve">
 			<destination>{dce9fc2d-0149-4510-a823-e3c35bb57429}</destination>
 		</relationship>
@@ -127,14 +124,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{97b10df5-a56d-414f-9017-2e6fe8c954f6}" />
 	<object class="MixerBusFader" id="{fbe76b11-8775-4acf-b981-2926870a3c92}" />
-	<object class="FadeCurve" id="{ebfc4cc0-746d-4373-8ba6-de6e07eeed86}">
-		<relationship name="startPoint">
-			<destination>{b26d2cb3-6b10-4b2e-b952-f14a8bea0aa8}</destination>
-		</relationship>
-		<relationship name="endPoint">
-			<destination>{d3c0b9d3-3f2c-48c1-99d7-66e9e7cf4fbc}</destination>
-		</relationship>
-	</object>
 	<object class="FadeCurve" id="{dce9fc2d-0149-4510-a823-e3c35bb57429}">
 		<relationship name="startPoint">
 			<destination>{396ff808-9f94-4903-b4de-6dc622f84f7d}</destination>
@@ -156,25 +145,6 @@
 		<relationship name="plugin">
 			<destination>{a1c35b4a-0df0-4ed2-a021-f10d8840413d}</destination>
 		</relationship>
-	</object>
-	<object class="AutomationPoint" id="{b26d2cb3-6b10-4b2e-b952-f14a8bea0aa8}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.2547189</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{d3c0b9d3-3f2c-48c1-99d7-66e9e7cf4fbc}">
-		<property name="position">
-			<value>0.5</value>
-		</property>
-		<property name="value">
-			<value>1</value>
-		</property>
 	</object>
 	<object class="AutomationPoint" id="{396ff808-9f94-4903-b4de-6dc622f84f7d}">
 		<property name="position">
@@ -201,7 +171,11 @@
 			<value>-80</value>
 		</property>
 	</object>
-	<object class="SFXReverbEffect" id="{dc25e94e-3e42-423c-affe-aa808682019f}" />
+	<object class="SFXReverbEffect" id="{dc25e94e-3e42-423c-affe-aa808682019f}">
+		<property name="highCut">
+			<value>3600</value>
+		</property>
+	</object>
 	<object class="Plugin" id="{a1c35b4a-0df0-4ed2-a021-f10d8840413d}">
 		<property name="identifier">
 			<value>Steam Audio Spatializer</value>
@@ -244,7 +218,6 @@
 		<property name="name">
 			<value>SourcePos</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -253,7 +226,6 @@
 		<property name="name">
 			<value>OverallGain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -374,7 +346,7 @@
 			<value>DAType</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>4</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -582,7 +554,6 @@
 		<property name="name">
 			<value>SimOutputs</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>0</value>
 		</property>
