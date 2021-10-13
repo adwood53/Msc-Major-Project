@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7301949627696016997}
   - component: {fileID: 1539161920050853833}
   - component: {fileID: 5104001697796199774}
+  - component: {fileID: 1635231670}
   m_Layer: 0
   m_Name: FuseSlot
   m_TagString: Untagged
@@ -75,8 +76,33 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5104001697796199774}
+        m_TargetAssemblyTypeName: 
         m_MethodName: FuseSocketed
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1635231667}
+        m_TargetAssemblyTypeName: InstantSceneSwitch, Assembly-CSharp
+        m_MethodName: Set
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1635231670}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -89,7 +115,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 5104001697796199774}
+        m_TargetAssemblyTypeName: 
         m_MethodName: FuseSocketed
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1635231667}
+        m_TargetAssemblyTypeName: InstantSceneSwitch, Assembly-CSharp
+        m_MethodName: Set
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -124,6 +163,30 @@ MonoBehaviour:
   - {fileID: 6694755292031384741}
   SwitchedOffVFX:
   - {fileID: 6694755292806190025}
+  poweredObjects: []
+--- !u!114 &1635231670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795977447694236920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Impact Noises/Lever
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &3879379326887835974
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,7 +338,20 @@ MonoBehaviour:
   OnDialStepChanged:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 3911214525545768812}
+        m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 5104001697796199774}
+        m_TargetAssemblyTypeName: 
         m_MethodName: Switched
         m_Mode: 0
         m_Arguments:
@@ -286,9 +362,69 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1635231666}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1635231667}
+        m_TargetAssemblyTypeName: InstantSceneSwitch, Assembly-CSharp
+        m_MethodName: Switch
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Maze
+          m_BoolArgument: 0
+        m_CallState: 2
   OnDialChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1635231666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8487134252830873215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Spooks/Thunder Crash
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 100
+--- !u!114 &1635231667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8487134252830873215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed58df6deb4c0284395f986cd8bb033b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ready: 0
 --- !u!1001 &5113766903727852489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -296,6 +432,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 255873025754418005}
     m_Modifications:
+    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -313,6 +454,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.34272528
       objectReference: {fileID: 0}
@@ -325,16 +471,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.000000081025064
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.000000014901161
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
         type: 3}
@@ -379,6 +515,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.1117
       objectReference: {fileID: 0}
@@ -394,6 +535,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.34272528
       objectReference: {fileID: 0}
@@ -406,16 +552,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.000000081025064
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.000000014901161
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
         type: 3}
@@ -460,6 +596,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
         type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.17962667
       objectReference: {fileID: 0}
@@ -475,6 +616,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.34272528
       objectReference: {fileID: 0}
@@ -487,16 +633,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.000000081025064
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.000000014901161
-      objectReference: {fileID: 0}
-    - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2727951201451336876, guid: 33099651b8c66144aa2f4364d3c49ffb,
         type: 3}
@@ -689,6 +825,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: -4735377502365667310, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4590796256423684873, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -698,6 +839,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
         type: 3}
@@ -716,6 +862,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -727,16 +878,6 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
-        type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
@@ -929,6 +1070,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3a5b60aad7ea6b64b857c3bfc3c15738, type: 2}
+    - target: {fileID: 2128363645793170003, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3060281911643599695, guid: 5bfaf6b7d0928674cbb4e5f3a5e29083,
         type: 3}
       propertyPath: m_StaticEditorFlags

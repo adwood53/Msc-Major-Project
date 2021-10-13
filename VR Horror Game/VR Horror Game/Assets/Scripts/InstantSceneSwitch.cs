@@ -5,7 +5,11 @@ using UnityEngine;
 public class InstantSceneSwitch : MonoBehaviour
 {
     public bool ready = false;
-
+    BoxCollider bc;
+    private void Start()
+    {
+        bc = gameObject.GetComponent<BoxCollider>();
+    }
     public void Set(bool b)
     {
         ready = b;
@@ -14,6 +18,7 @@ public class InstantSceneSwitch : MonoBehaviour
     {
         if(ready)
         {
+            bc.enabled = false;
             gameObject.GetComponent<DialInteractable>().colliders.Clear();
             StartCoroutine(change(sceneName));
         }

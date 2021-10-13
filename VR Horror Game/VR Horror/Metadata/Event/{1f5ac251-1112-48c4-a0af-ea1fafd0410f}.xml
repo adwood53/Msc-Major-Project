@@ -46,7 +46,7 @@
 	</object>
 	<object class="MasterTrack" id="{b46db7e9-dd69-4e1c-9419-cb8c0014be10}">
 		<relationship name="automationTracks">
-			<destination>{16a0b42a-71e9-4564-82a6-d0de7c32f963}</destination>
+			<destination>{5dd17029-8c6e-421b-a272-22dee6f59c3e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{cdc6660d-3c32-48dd-b65d-595c826699e9}</destination>
@@ -103,7 +103,7 @@
 			<destination>{2ea2604b-50a8-47b3-aa77-a3fcc606ee80}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationTrack" id="{16a0b42a-71e9-4564-82a6-d0de7c32f963}">
+	<object class="AutomationTrack" id="{5dd17029-8c6e-421b-a272-22dee6f59c3e}">
 		<relationship name="automator">
 			<destination>{474cc0f6-b2c7-47be-a374-fc4a298f891f}</destination>
 		</relationship>

@@ -53,7 +53,7 @@ public class SceneLoader : Singleton<SceneLoader>
         if (instant)
         {
             float duration = screenFader.FadeInInstant();
-            yield return new WaitForSeconds(duration);
+            yield return new WaitForSeconds(duration+0.1f);
         }
         else
         {
@@ -66,11 +66,11 @@ public class SceneLoader : Singleton<SceneLoader>
         if (debugTime) // Adds debug delay
             yield return new WaitForSeconds(8.0f);
 
-        xrinteractionManager = xrinteractionManagerObject.AddComponent<XRInteractionManager>() as XRInteractionManager;
-        foreach (var item in interactors)
-        {
-            item.interactionManager = xrinteractionManager;
-        }
+        //xrinteractionManager = xrinteractionManagerObject.AddComponent<XRInteractionManager>() as XRInteractionManager;
+        //foreach (var item in interactors)
+        //{
+        //    item.interactionManager = xrinteractionManager;
+        //}
 
         // Loads new scene, unfades screen and triggers OnLoadEnd event
         yield return StartCoroutine(LoadNew(sceneName));
@@ -83,7 +83,7 @@ public class SceneLoader : Singleton<SceneLoader>
 
     private IEnumerator UnloadCurrent()
     {
-        Destroy(xrinteractionManager);
+        //Destroy(xrinteractionManager);
         AsyncOperation unloadOperation = SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
 
         while (!unloadOperation.isDone)

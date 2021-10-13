@@ -177,7 +177,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{0c64d379-1152-4781-90ce-f5acc6508bff}">
@@ -185,7 +185,7 @@
 			<value>7</value>
 		</property>
 		<property name="value">
-			<value>-22</value>
+			<value>-20.5714264</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.152887553</value>
@@ -196,7 +196,7 @@
 			<value>20</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-73.3333359</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{cb418e4c-46e6-4d42-b3dd-5d672486dedf}">
@@ -204,7 +204,7 @@
 			<value>16</value>
 		</property>
 		<property name="value">
-			<value>-50</value>
+			<value>-47.5</value>
 		</property>
 	</object>
 	<object class="Plugin" id="{8a3c2e5b-2aed-4e6f-92c2-c9743a8a195c}">
@@ -308,7 +308,7 @@
 			<value>ApplyOccl</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -479,7 +479,7 @@
 			<value>Occlusion</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0.199999988</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>
