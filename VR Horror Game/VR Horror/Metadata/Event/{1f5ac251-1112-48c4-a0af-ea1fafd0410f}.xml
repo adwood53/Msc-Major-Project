@@ -378,7 +378,7 @@
 			<value>ApplyDA</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -547,7 +547,7 @@
 			<value>AirAbsHigh</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0.689999998</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>

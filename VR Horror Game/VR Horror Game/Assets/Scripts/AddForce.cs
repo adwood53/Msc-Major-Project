@@ -27,9 +27,15 @@ public class AddForce : MonoBehaviour
 
     public void addForce()
     {
-        if(isExplosion)
+        if (isExplosion)
         {
-            rb.AddExplosionForce(Force, forceposition.position, explosionRadius, 0.0f, ForceMode.Force);
+            Collider[] colliders = Physics.OverlapSphere(forceposition.position, explosionRadius);
+            foreach (Collider hit in colliders)
+            {
+                Rigidbody rb1 = hit.GetComponent<Rigidbody>();
+
+                if (rb1 != null) rb1.AddExplosionForce(Force, forceposition.position, explosionRadius, 3.0F);
+            }
         }
         else
         {

@@ -46,7 +46,6 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{9423d902-1ba8-4c56-bc07-47c70bb0d42c}</destination>
-			<destination>{679c62d0-631a-4087-95dd-b5e23b5f57b8}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{49a73f21-cfbb-4888-a9f8-88a913bd24db}</destination>
@@ -58,9 +57,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{a3b1700b-075b-4400-893c-722553704c3c}">
-		<relationship name="automationTracks">
-			<destination>{e2085e62-9b65-4081-825d-2f20ae253fc8}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{13713e2f-8e38-4607-9faa-e2b41ff8cc32}</destination>
 		</relationship>
@@ -246,15 +242,7 @@
 			<destination>{2995fe6d-cfb4-4ee6-8658-a1b44c39479e}</destination>
 		</relationship>
 	</object>
-	<object class="ParameterProxy" id="{679c62d0-631a-4087-95dd-b5e23b5f57b8}">
-		<relationship name="preset">
-			<destination>{03d25381-c609-4e12-a77b-d97ea99497b3}</destination>
-		</relationship>
-	</object>
 	<object class="EventMixerMaster" id="{13713e2f-8e38-4607-9faa-e2b41ff8cc32}">
-		<relationship name="automators">
-			<destination>{ccca0b28-8964-437b-9e98-6041ac424ce9}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{d700eb00-a11e-4ccd-b2bc-5b67828c6a8d}</destination>
 		</relationship>
@@ -263,11 +251,6 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{1edce40a-72c0-49f8-81c0-31cb8435cf8d}</destination>
-		</relationship>
-	</object>
-	<object class="AutomationTrack" id="{e2085e62-9b65-4081-825d-2f20ae253fc8}">
-		<relationship name="automator">
-			<destination>{ccca0b28-8964-437b-9e98-6041ac424ce9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{42a48112-7fa4-43a5-aae0-5aeeda838709}">
@@ -1625,14 +1608,6 @@
 			<destination>{7a244e08-c2ce-472c-b89c-8201905bd4e5}</destination>
 		</relationship>
 	</object>
-	<object class="Automator" id="{ccca0b28-8964-437b-9e98-6041ac424ce9}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>volume</value>
-		</property>
-		<relationship name="automationCurves">
-			<destination>{38d469b4-b221-4171-8e4c-cb7f807d410a}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusEffectChain" id="{d700eb00-a11e-4ccd-b2bc-5b67828c6a8d}">
 		<relationship name="effects">
 			<destination>{a0083cb4-a48c-4bc3-969b-756ddac68854}</destination>
@@ -2113,15 +2088,6 @@
 			<destination>{2995fe6d-cfb4-4ee6-8658-a1b44c39479e}</destination>
 		</relationship>
 	</object>
-	<object class="AutomationCurve" id="{38d469b4-b221-4171-8e4c-cb7f807d410a}">
-		<relationship name="parameter">
-			<destination>{03d25381-c609-4e12-a77b-d97ea99497b3}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{db7a6993-0e10-47b7-b260-86d5e0d9ade9}</destination>
-			<destination>{650fccfb-9745-4751-9069-0f2cf680ff48}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{a0083cb4-a48c-4bc3-969b-756ddac68854}" />
 	<object class="PluginEffect" id="{adc14250-0087-4418-a7a3-e023765e386d}">
 		<relationship name="plugin">
@@ -2481,22 +2447,6 @@
 	</object>
 	<object class="MixerBusFader" id="{9879b0f2-4443-40b3-815b-9385854001ef}" />
 	<object class="MixerBusFader" id="{ba90932e-03f3-449b-85dd-14ad444d43a9}" />
-	<object class="AutomationPoint" id="{db7a6993-0e10-47b7-b260-86d5e0d9ade9}">
-		<property name="position">
-			<value>1</value>
-		</property>
-		<property name="value">
-			<value>3.81469727e-06</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{650fccfb-9745-4751-9069-0f2cf680ff48}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-80</value>
-		</property>
-	</object>
 	<object class="Plugin" id="{5b254301-a3b9-44c0-8221-016d598f927f}">
 		<property name="identifier">
 			<value>Steam Audio Spatializer</value>
@@ -2750,7 +2700,7 @@
 			<value>DAType</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -2830,7 +2780,7 @@
 			<value>DipoleWeight</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>

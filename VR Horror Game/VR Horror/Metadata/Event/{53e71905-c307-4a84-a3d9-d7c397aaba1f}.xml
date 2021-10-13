@@ -31,9 +31,6 @@
 		<relationship name="timeline">
 			<destination>{39d9d07f-046c-44e8-ad33-d0bb1555089b}</destination>
 		</relationship>
-		<relationship name="parameters">
-			<destination>{112c1ed9-3778-4a1c-a97c-5669e95cce9f}</destination>
-		</relationship>
 		<relationship name="banks">
 			<destination>{49a73f21-cfbb-4888-a9f8-88a913bd24db}</destination>
 		</relationship>
@@ -44,9 +41,6 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{623c6256-6587-48bf-8842-865eead8bade}">
-		<relationship name="automationTracks">
-			<destination>{ac696e34-4858-41a4-b5d1-97a519ee56a1}</destination>
-		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{8f55560d-5dde-4b2c-9764-9e6284b00d34}</destination>
 		</relationship>
@@ -76,16 +70,11 @@
 		<relationship name="modules">
 			<destination>{54c72390-14bd-4110-bfb3-4d7c5f162f19}</destination>
 		</relationship>
-	</object>
-	<object class="ParameterProxy" id="{112c1ed9-3778-4a1c-a97c-5669e95cce9f}">
-		<relationship name="preset">
-			<destination>{af199bfd-7d6f-497a-b277-57f448f65692}</destination>
+		<relationship name="markers">
+			<destination>{4e2b9e5f-da8d-4f13-ae09-fc10419ffd32}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{8f55560d-5dde-4b2c-9764-9e6284b00d34}">
-		<relationship name="automators">
-			<destination>{52961d98-fb86-4c8e-a217-e2809e1324d7}</destination>
-		</relationship>
 		<relationship name="effectChain">
 			<destination>{6f774cb6-2112-4f59-847e-fd062b595f99}</destination>
 		</relationship>
@@ -94,11 +83,6 @@
 		</relationship>
 		<relationship name="mixer">
 			<destination>{b12e1ecf-50bc-4dc5-8f81-82cba63e1c07}</destination>
-		</relationship>
-	</object>
-	<object class="AutomationTrack" id="{ac696e34-4858-41a4-b5d1-97a519ee56a1}">
-		<relationship name="automator">
-			<destination>{52961d98-fb86-4c8e-a217-e2809e1324d7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{1144fce1-821e-4400-8d64-4eb36256ecf1}">
@@ -129,12 +113,18 @@
 			<destination>{8f55560d-5dde-4b2c-9764-9e6284b00d34}</destination>
 		</relationship>
 	</object>
-	<object class="Automator" id="{52961d98-fb86-4c8e-a217-e2809e1324d7}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>volume</value>
+	<object class="LoopRegion" id="{4e2b9e5f-da8d-4f13-ae09-fc10419ffd32}">
+		<property name="position">
+			<value>0</value>
 		</property>
-		<relationship name="automationCurves">
-			<destination>{dcc27e2d-97e9-4dc5-b39e-d961b01ec7e7}</destination>
+		<property name="length">
+			<value>114.07673469387755</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{39d9d07f-046c-44e8-ad33-d0bb1555089b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{c50975dd-c6d2-4145-9df2-034845d892d8}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6f774cb6-2112-4f59-847e-fd062b595f99}">
@@ -151,17 +141,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1407f77e-716e-4a85-8e63-5eb13df6522f}" />
-	<object class="AutomationCurve" id="{dcc27e2d-97e9-4dc5-b39e-d961b01ec7e7}">
-		<relationship name="parameter">
-			<destination>{af199bfd-7d6f-497a-b277-57f448f65692}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{0849749a-8de3-42a5-aaa9-1aefa9208fb3}</destination>
-			<destination>{235146ff-58a3-4c6b-bdd9-5d57171a4d88}</destination>
-			<destination>{488cab74-20e9-4fed-b60b-04c0d14983b2}</destination>
-			<destination>{fb20e562-aacb-4bf2-9e2c-fb44b17ba920}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{2ea81f2a-6e4d-4df4-b9c6-5696d1f6287c}" />
 	<object class="PluginEffect" id="{eb20a9ac-1d05-46de-9569-ccdd8d6d8f74}">
 		<relationship name="plugin">
@@ -169,41 +148,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{a6718443-1424-4799-b01d-5a3be9730c78}" />
-	<object class="AutomationPoint" id="{0849749a-8de3-42a5-aaa9-1aefa9208fb3}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>3</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{235146ff-58a3-4c6b-bdd9-5d57171a4d88}">
-		<property name="position">
-			<value>7</value>
-		</property>
-		<property name="value">
-			<value>-18.3999996</value>
-		</property>
-		<property name="curveShape">
-			<value>-0.152887553</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{488cab74-20e9-4fed-b60b-04c0d14983b2}">
-		<property name="position">
-			<value>20</value>
-		</property>
-		<property name="value">
-			<value>-60</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{fb20e562-aacb-4bf2-9e2c-fb44b17ba920}">
-		<property name="position">
-			<value>16</value>
-		</property>
-		<property name="value">
-			<value>-42.5</value>
-		</property>
-	</object>
 	<object class="Plugin" id="{598a1408-7e64-4d83-b4b3-b0be97d2f50a}">
 		<property name="identifier">
 			<value>Steam Audio Spatializer</value>
@@ -263,7 +207,7 @@
 			<value>ApplyDA</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -305,7 +249,7 @@
 			<value>ApplyOccl</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -374,7 +318,7 @@
 			<value>DAType</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -399,7 +343,7 @@
 			<value>DAMaxDist</value>
 		</property>
 		<property name="value">
-			<value>50</value>
+			<value>10</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,10000.000000)}</value>
@@ -432,7 +376,7 @@
 			<value>AirAbsHigh</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0.699999988</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>
@@ -476,7 +420,7 @@
 			<value>Occlusion</value>
 		</property>
 		<property name="value">
-			<value>0.204999998</value>
+			<value>0.799999952</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>

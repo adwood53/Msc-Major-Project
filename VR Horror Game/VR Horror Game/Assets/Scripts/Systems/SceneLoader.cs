@@ -53,12 +53,12 @@ public class SceneLoader : Singleton<SceneLoader>
         if (instant)
         {
             float duration = screenFader.FadeInInstant();
-            yield return new WaitForSeconds(duration+0.1f);
+            yield return new WaitForSeconds(3f);
         }
         else
         {
             float duration = screenFader.FadeIn();
-            yield return new WaitForSeconds(duration);
+            yield return new WaitForSeconds(duration+2f);
         }
         yield return new WaitForEndOfFrame();
         yield return StartCoroutine(UnloadCurrent());

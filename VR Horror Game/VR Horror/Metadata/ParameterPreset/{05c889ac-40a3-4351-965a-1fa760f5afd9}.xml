@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="ParameterPreset" id="{6678279a-00b7-4aae-aa14-6f85e5a56acf}">
+	<object class="ParameterPreset" id="{05c889ac-40a3-4351-965a-1fa760f5afd9}">
 		<property name="name">
 			<value>Volume</value>
 		</property>
@@ -8,10 +8,10 @@
 			<destination>{2e382ad8-c27a-445f-80a7-1dc1404d50cd}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{03d25381-c609-4e12-a77b-d97ea99497b3}</destination>
+			<destination>{c33d247b-316e-4c3d-9417-86894bdd9889}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{03d25381-c609-4e12-a77b-d97ea99497b3}">
+	<object class="GameParameter" id="{c33d247b-316e-4c3d-9417-86894bdd9889}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
@@ -24,6 +24,12 @@
 		</property>
 		<property name="initialValue">
 			<value>1</value>
+		</property>
+		<property name="velocity">
+			<value>-0.05000000074505806</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>1.1599999666213989</value>
 		</property>
 	</object>
 </objects>

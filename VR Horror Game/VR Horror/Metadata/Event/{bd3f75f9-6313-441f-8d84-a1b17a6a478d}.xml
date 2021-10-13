@@ -61,6 +61,7 @@
 	<object class="GroupTrack" id="{e896e489-297a-42d1-b046-a03a983f8ca1}">
 		<relationship name="modules">
 			<destination>{1dd42fc6-b4cf-46cf-bb0f-7d800c79d1bc}</destination>
+			<destination>{2e228684-1cec-4929-918b-3ad708c05d8e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f8406705-272a-4a0f-837f-6cddb119ba09}</destination>
@@ -69,6 +70,7 @@
 	<object class="Timeline" id="{a8c5fc34-88a4-45dd-b6b3-9b392b315368}">
 		<relationship name="modules">
 			<destination>{1dd42fc6-b4cf-46cf-bb0f-7d800c79d1bc}</destination>
+			<destination>{2e228684-1cec-4929-918b-3ad708c05d8e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{56f372dc-57d6-48cf-8b7c-e9d0ec583a1c}">
@@ -89,6 +91,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{71172201-6bde-45b2-bd52-f653a8f3f632}" />
 	<object class="SingleSound" id="{1dd42fc6-b4cf-46cf-bb0f-7d800c79d1bc}">
+		<property name="start">
+			<value>15</value>
+		</property>
 		<property name="length">
 			<value>98.063673469387751</value>
 		</property>
@@ -96,9 +101,14 @@
 			<destination>{ea08fc14-e325-4343-aa75-c77c0c373891}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{2e228684-1cec-4929-918b-3ad708c05d8e}">
+		<property name="length">
+			<value>15</value>
+		</property>
+	</object>
 	<object class="EventMixerGroup" id="{f8406705-272a-4a0f-837f-6cddb119ba09}">
 		<property name="volume">
-			<value>1</value>
+			<value>-1</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -321,7 +331,7 @@
 			<value>DAType</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -401,7 +411,7 @@
 			<value>DipoleWeight</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>

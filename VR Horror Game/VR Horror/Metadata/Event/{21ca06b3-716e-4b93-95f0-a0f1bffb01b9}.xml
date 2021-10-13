@@ -93,8 +93,14 @@
 	<object class="MixerBusPanner" id="{7720fa21-393c-41b0-a2c6-17c1c0ff5b8d}" />
 	<object class="SingleSound" id="{a92ba267-c89f-4274-9c61-99dc00cf43e7}">
 		<property name="length">
-			<value>174.05387755102041</value>
+			<value>162.05387755102041</value>
 		</property>
+		<property name="timelockedOffset">
+			<value>12</value>
+		</property>
+		<relationship name="fadeInCurve">
+			<destination>{fc661b97-2cc2-49c1-a5d0-2e0fe252a9ca}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{f7500a7f-d1ce-43a2-9223-46ecc4a979be}</destination>
 		</relationship>
@@ -135,6 +141,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{879400fe-13a5-479c-b442-2f4c55d8aea4}" />
 	<object class="MixerBusFader" id="{6b9af3aa-5c72-4546-bc2c-f9ed06ad538a}" />
+	<object class="FadeCurve" id="{fc661b97-2cc2-49c1-a5d0-2e0fe252a9ca}">
+		<relationship name="startPoint">
+			<destination>{c623d7bd-f124-4388-b578-acd6a29766ea}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{0cae968b-bc79-4e31-9f62-03b9a6ab74cd}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{586a665e-e0ab-4a9c-8926-5adad6b389bc}">
 		<relationship name="effects">
 			<destination>{1159ebf9-b38c-4ce0-9cad-df5d202278ed}</destination>
@@ -146,6 +160,25 @@
 		<relationship name="plugin">
 			<destination>{b80637cf-0f10-4b86-8967-cf7c4736e1b2}</destination>
 		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{c623d7bd-f124-4388-b578-acd6a29766ea}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{0cae968b-bc79-4e31-9f62-03b9a6ab74cd}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{1159ebf9-b38c-4ce0-9cad-df5d202278ed}" />
 	<object class="Plugin" id="{b80637cf-0f10-4b86-8967-cf7c4736e1b2}">
@@ -318,7 +351,7 @@
 			<value>DAType</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>

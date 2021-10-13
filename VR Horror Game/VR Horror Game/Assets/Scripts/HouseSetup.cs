@@ -47,4 +47,24 @@ public class HouseSetup : MonoBehaviour
                 break;
         }
     }
+
+    public void IncrementGameLevel()
+    {
+        GameData.Instance.LevelUp();
+    }
+
+    public void IncrementFearLevel()
+    {
+        GameData.Instance.FearLevelUp();
+    }
+
+    public int ReturnGameLevel()
+    {
+        return GameData.Instance.Level;
+    }
+
+    public int ReturnFearLevel()
+    {
+        return GameData.Instance.FearLevel;
+    }
 }

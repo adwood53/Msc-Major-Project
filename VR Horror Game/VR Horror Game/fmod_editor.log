@@ -9,7 +9,7 @@
 [LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000019C71EAEAD8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001AE37E0A5B8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -101,4 +101,656 @@
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
 [LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Steam Audio Spatializer'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::mixerSuspend                    : Suspending output.
+[LOG] SystemI::mixerResume                     : Resuming output.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AFE87C0C28
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AFE87C0C28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001B04A01D558
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001B04A01D558
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AFE87BFCF8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AFE87BFCF8
+[LOG] SoundI::release                          : Rain + Thunder (000001AFE87C0F88)
+[LOG] SoundI::release                          :     Rain + Thunder (000001AE3801EAC8)
+[LOG] SoundI::release                          :     Rain + Thunder (000001AFE87BFCF8)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A02FE8 : node = 000001B0E5B9F930
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A02FE8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B0E5B9FA40
+[LOG] SystemI::createSound                     :     filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     setdata soundi = 000001AE61A01188 : node = 000001B0E5B9FE30
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 46000
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='scream bass', format=5, channels=2, frequency=48000, lengthbytes=1212128, lengthpcm=5318948, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.985321.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A02FE8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A01188
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B0E5B9FF40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 23500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='glitchy loop', format=5, channels=2, frequency=48000, lengthbytes=773120, lengthpcm=2595526, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A01188
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE619FE098
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE619FE098
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE619FE908
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE619FE908
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE619FEC68 : node = 000001B1361E7960
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE619FEC68
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B1361E7A70
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Lullaby', format=5, channels=2, frequency=48000, lengthbytes=340160, lengthpcm=1682703, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.985199.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE619FEC68
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A04788 : node = 000001B0E5B9FF70
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A04788
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B0E5BA0080
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 46000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='scream bass', format=5, channels=2, frequency=48000, lengthbytes=1212128, lengthpcm=5318948, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.985321.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A04788
+[LOG] SoundI::release                          : scream bass (000001AE61A02FE8)
+[LOG] SoundI::release                          :     scream bass (000001AE3801FB08)
+[LOG] SoundI::release                          :     scream bass (000001AE619FE098)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE619FEFC8 : node = 000001AE73E20090
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE619FEFC8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AE73E201A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 12000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000001AE619FF688 : node = 000001AE73E21210
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Trauma', format=5, channels=2, frequency=48000, lengthbytes=2419520, lengthpcm=8354586, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.978882.
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE619FEFC8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE619FF688
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AE73E21320
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 46500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Creepy Little Girl Talking, Singing, Laughing, Humming (HD) (FREE)', format=5, channels=2, frequency=48000, lengthbytes=1424960, lengthpcm=7183464, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.364227.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE619FF688
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE5FE13488
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small book 2', format=5, channels=2, frequency=48000, lengthbytes=13760, lengthpcm=48901, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.984802.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE5FE13488
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small book 4', format=5, channels=2, frequency=48000, lengthbytes=16032, lengthpcm=61440, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.944977.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE5FE13488
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small book 1', format=5, channels=2, frequency=48000, lengthbytes=23968, lengthpcm=95294, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE5FE13488
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small book 3', format=5, channels=2, frequency=48000, lengthbytes=19776, lengthpcm=75232, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.743073.
+[LOG] SoundI::release                          : glitchy loop (000001AE61A01188)
+[LOG] SoundI::release                          :     glitchy loop (000001AE380226E8)
+[LOG] SoundI::release                          :     glitchy loop (000001AE619FE908)
+[LOG] SoundI::release                          : scream bass (000001AE61A04788)
+[LOG] SoundI::release                          :     scream bass (000001AE3801D0C8)
+[LOG] SoundI::release                          :     scream bass (000001AE61A00C78)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE66C854B8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='fox 1', format=5, channels=2, frequency=48000, lengthbytes=56352, lengthpcm=290899, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.987793.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE66C854B8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='vhs', format=5, channels=2, frequency=48000, lengthbytes=25696, lengthpcm=290899, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.983002.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE66C854B8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='fox 2', format=5, channels=2, frequency=48000, lengthbytes=62688, lengthpcm=290899, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986023.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE66C854B8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='scrapes', format=5, channels=2, frequency=48000, lengthbytes=56928, lengthpcm=290899, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.982819.
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A00C78 : node = 000001B0E5B9FF70
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A00C78
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B0E5BA0080
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Low loop', format=5, channels=2, frequency=48000, lengthbytes=135808, lengthpcm=1154821, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.908234.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A00C78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE619FE908
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE619FE908
+[LOG] SoundI::release                          : Creepy Little Girl Talking, Singing, Laughing, Humming (HD) (FREE) (000001AE619FF688)
+[LOG] SoundI::release                          :     Creepy Little Girl Talking, Singing, Laughing, Humming (HD) (FREE) (000001AE38022208)
+[LOG] SoundI::release                          :     Creepy Little Girl Talking, Singing, Laughing, Humming (HD) (FREE) (000001AE61A02268)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A00E28 : node = 000001B0F2D391F0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A00E28
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B0F2D39300
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 120000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Creepy Little Girl Talking, Singing, Laughing, Humming (HD) (FREE)', format=5, channels=2, frequency=48000, lengthbytes=1424960, lengthpcm=7183464, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.364227.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A00E28
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE66BBC088
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 1', format=5, channels=2, frequency=48000, lengthbytes=11200, lengthpcm=42631, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.951050.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE66BBC088
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 5', format=5, channels=2, frequency=48000, lengthbytes=11744, lengthpcm=43885, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.998108.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE66BBC088
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 2', format=5, channels=2, frequency=48000, lengthbytes=9216, lengthpcm=36362, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.370605.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE66BBC088
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 4', format=5, channels=2, frequency=48000, lengthbytes=10336, lengthpcm=40124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.819763.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000006F1E3CF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF946777EC0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF946777E90
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF946777F90
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF946778050
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001AE66BBC088
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Small Box 3', format=5, channels=2, frequency=48000, lengthbytes=9536, lengthpcm=40124, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.573120.
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A034F8 : node = 000001B0E5B9F930
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A034F8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSound                     :     setdata soundi = 000001AE61A02778 : node = 000001B0E5B9FE30
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSound                     :     add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B0E5B9FA40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Low loop', format=5, channels=2, frequency=48000, lengthbytes=135808, lengthpcm=1154821, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.908234.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A034F8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A02778
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B0E5B9FF40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 1277
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Spooks', format=5, channels=2, frequency=48000, lengthbytes=1116864, lengthpcm=6068767, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.864716.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A02778
+[LOG] SoundI::release                          : Low loop (000001AE61A00C78)
+[LOG] SoundI::release                          :     Low loop (000001AE380226E8)
+[LOG] SoundI::release                          :     Low loop (000001AE619FE908)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A04AE8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A04AE8
+[LOG] SoundI::release                          : Lullaby (000001AE619FEC68)
+[LOG] SoundI::release                          :     Lullaby (000001AE3801EAC8)
+[LOG] SoundI::release                          :     Lullaby (000001AE61A03348)
+[LOG] SoundI::release                          : Trauma (000001AE619FEFC8)
+[LOG] SoundI::release                          :     Trauma (000001AE38020808)
+[LOG] SoundI::release                          :     Trauma (000001AE61A03A08)
+[LOG] SoundI::release                          : Creepy Little Girl Talking, Singing, Laughing, Humming (HD) (FREE) (000001AE61A00E28)
+[LOG] SoundI::release                          :     Creepy Little Girl Talking, Singing, Laughing, Humming (HD) (FREE) (000001AE38022888)
+[LOG] SoundI::release                          :     Creepy Little Girl Talking, Singing, Laughing, Humming (HD) (FREE) (000001AE619FF688)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A02268 : node = 000001AE73E20950
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A02268
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AE73E20A60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 187
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='drum', format=5, channels=2, frequency=48000, lengthbytes=279296, lengthpcm=1166106, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.981384.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A02268
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A04788 : node = 000001AE73E1F410
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A04788
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AE73E1F520
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Low loop', format=5, channels=2, frequency=48000, lengthbytes=135808, lengthpcm=1154821, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.908234.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A04788
+[LOG] SoundI::release                          : Low loop (000001AE61A034F8)
+[LOG] SoundI::release                          :     Low loop (000001AE38022BC8)
+[LOG] SoundI::release                          :     Low loop (000001AE61A04AE8)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A025C8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A025C8
+[LOG] SoundI::release                          : Spooks (000001AE61A02778)
+[LOG] SoundI::release                          :     Spooks (000001AE38022D68)
+[LOG] SoundI::release                          :     Spooks (000001AE61A019F8)
+[LOG] SoundI::release                          : Low loop (000001AE61A04788)
+[LOG] SoundI::release                          :     Low loop (000001AE38020808)
+[LOG] SoundI::release                          :     Low loop (000001AE61A025C8)
+[LOG] SoundI::release                          : drum (000001AE61A02268)
+[LOG] SoundI::release                          :     drum (000001AE3801EAC8)
+[LOG] SoundI::release                          :     drum (000001AE61A03D68)
+[LOG] SoundI::release                          : glock (000001B04A020648)
+[LOG] SoundI::release                          :     glock (000001AE3801F488)
+[LOG] SoundI::release                          :     glock (000001B04A01D558)
+[LOG] SoundI::release                          : Sine tones (000001AFE87BDCE8)
+[LOG] SoundI::release                          :     Sine tones (000001AE3801F968)
+[LOG] SoundI::release                          :     Sine tones (000001AFE87C0C28)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE619FE908 : node = 000001B0E10DC8B0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE619FE908
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B0E10DC9C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='child lord's prayer', format=5, channels=2, frequency=48000, lengthbytes=229184, lengthpcm=1203722, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.956055.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE619FE908
+[LOG] SoundI::release                          : child lord's prayer (000001AE619FE908)
+[LOG] SoundI::release                          :     child lord's prayer (000001AE38020808)
+[LOG] SoundI::release                          :     child lord's prayer (000001AE619FEC68)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A040C8 : node = 000001B00699EE40
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A040C8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B00699EF50
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='get out', format=5, channels=2, frequency=48000, lengthbytes=227104, lengthpcm=1154821, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.906799.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A040C8
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A0BBF8 : node = 000001AE73E1FCD0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A0BBF8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001AE73E1FDE0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ambulance2', format=5, channels=2, frequency=48000, lengthbytes=1231488, lengthpcm=4707056, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.972626.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A0BBF8
+[LOG] SoundI::release                          : get out (000001AE61A040C8)
+[LOG] SoundI::release                          :     get out (000001AE3801EAC8)
+[LOG] SoundI::release                          :     get out (000001AE619FE908)
+[LOG] SoundI::release                          :  (000001B006332368)
+[LOG] SoundI::release                          :     fox 2 (000001AE3801FE48)
+[LOG] SoundI::release                          :  (000001B006332648)
+[LOG] SoundI::release                          :     fox 1 (000001AE380211C8)
+[LOG] SoundI::release                          :  (000001B006332088)
+[LOG] SoundI::release                          :     vhs (000001AE3801C8A8)
+[LOG] SoundI::release                          :  (000001B0063327B8)
+[LOG] SoundI::release                          :     scrapes (000001AE38020668)
+[LOG] SoundI::release                          :  (000001B122B7FAF8)
+[LOG] SoundI::release                          :     Magazine 1 (000001AE3801E788)
+[LOG] SoundI::release                          :  (000001B0F354E138)
+[LOG] SoundI::release                          :     Magazine 2 (000001AE3801C568)
+[LOG] SoundI::release                          :  (000001B122B7F538)
+[LOG] SoundI::release                          :     Magazine 3 (000001AE3801CBE8)
+[LOG] SoundI::release                          :  (000001B0F354DCE8)
+[LOG] SoundI::release                          :     Magazine 4 (000001AE38021028)
+[LOG] SoundI::release                          :  (000001B0F354DB78)
+[LOG] SoundI::release                          :     Large book 1 (000001AE38020188)
+[LOG] SoundI::release                          :  (000001B0F354E6F8)
+[LOG] SoundI::release                          :     Large book 2 (000001AE38020CE8)
+[LOG] SystemI::createSound                     : filename = ../VR Horror/Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001AE61A0A2A8 : node = 000001B0E5B9F930
+[LOG] SystemI::createSound                     : add node to async list : head = 000001B0D7B04FE8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A0A2A8
+[LOG] SystemI::createSoundInternal             :     Create name='../VR Horror/Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 56745056
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 202400
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B0E5B9FA40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='9. Lord's Repent', format=5, channels=2, frequency=48000, lengthbytes=2563680, lengthpcm=10151392, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.992157.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A0A2A8
+[LOG] SoundI::release                          : ambulance2 (000001AE61A0BBF8)
+[LOG] SoundI::release                          :     ambulance2 (000001AE3801F488)
+[LOG] SoundI::release                          :     ambulance2 (000001AE61A0D6F8)
+[LOG] SystemI::mixerSuspend                    : Suspending output.
+[LOG] SystemI::mixerResume                     : Resuming output.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001AE61A06948
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001AE61A06948
+[LOG] SoundI::release                          : 9. Lord's Repent (000001AE61A0A2A8)
+[LOG] SoundI::release                          :     9. Lord's Repent (000001AE3801E788)
+[LOG] SoundI::release                          :     9. Lord's Repent (000001AE61A06948)
+[LOG] SoundI::release                          :  (000001B0F354DFC8)
+[LOG] SoundI::release                          :     Large book 3 (000001AE38021EC8)
+[LOG] SoundI::release                          :  (000001B122B7EF78)
+[LOG] SoundI::release                          :     Large book 4 (000001AE3801FCA8)
+[LOG] SoundI::release                          :  (000001B122B7F988)
+[LOG] SoundI::release                          :     Large book 5 (000001AE38022068)
+[LOG] SoundI::release                          :  (000001B122B7F0E8)
+[LOG] SoundI::release                          :     Plate 1 (000001AE3801E928)
+[LOG] SoundI::release                          :  (000001B0F354E418)
+[LOG] SoundI::release                          :     Plate 2 (000001AE38020E88)
+[LOG] SoundI::release                          :  (000001B122B7F258)
+[LOG] SoundI::release                          :     Plate 3 (000001AE3801CF28)
+[LOG] SoundI::release                          :  (000001B0F354E588)
+[LOG] SoundI::release                          :     Plate 4 (000001AE3801DF68)
+[LOG] SoundI::release                          :  (000001B0F354E868)
+[LOG] SoundI::release                          :     Plate 5 (000001AE3801D748)
+[LOG] SoundI::release                          :  (000001AEAE6DAD08)
+[LOG] SoundI::release                          :     Small Box 1 (000001AE38022208)
+[LOG] SoundI::release                          :  (000001AEAE6DC128)
+[LOG] SoundI::release                          :     Small Box 2 (000001AE3801D0C8)
+[LOG] SoundI::release                          :  (000001AEAE6DAE78)
+[LOG] SoundI::release                          :     Small Box 3 (000001AE38022F08)
+[LOG] SoundI::release                          :  (000001AEAE6DB2C8)
+[LOG] SoundI::release                          :     Small Box 4 (000001AE3801D408)
+[LOG] SoundI::release                          :  (000001AEAE6DA748)
+[LOG] SoundI::release                          :     Small Box 5 (000001AE3801CA48)
+[LOG] SoundI::release                          :  (000001AFE80E2818)
+[LOG] SoundI::release                          :     Small book 1 (000001AE380204C8)
+[LOG] SoundI::release                          :  (000001AFE80E2F48)
+[LOG] SoundI::release                          :     Small book 2 (000001AE3801EC68)
+[LOG] SoundI::release                          :  (000001AFE80E2258)
+[LOG] SoundI::release                          :     Small book 3 (000001AE3801FB08)
+[LOG] SoundI::release                          :  (000001AFE80E2C68)
+[LOG] SoundI::release                          :     Small book 4 (000001AE380223A8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[ERR] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004.  Device was unplugged!
+[ERR] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004.  Device was unplugged!
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] DownMix::init                            : dspbuffersize: 1024  rate: 48000. output speaker mode: 3, input speaker mode 6
+[LOG] DownMix::init                            : done.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.

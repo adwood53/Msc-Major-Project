@@ -31,9 +31,6 @@
 		<relationship name="timeline">
 			<destination>{b12c5180-44f7-4906-b637-bfc659585ed5}</destination>
 		</relationship>
-		<relationship name="parameters">
-			<destination>{7715e47c-df45-4a46-812e-0f7088d57047}</destination>
-		</relationship>
 		<relationship name="banks">
 			<destination>{49a73f21-cfbb-4888-a9f8-88a913bd24db}</destination>
 		</relationship>
@@ -72,11 +69,6 @@
 	<object class="Timeline" id="{b12c5180-44f7-4906-b637-bfc659585ed5}">
 		<relationship name="modules">
 			<destination>{77052bac-a611-42f2-a772-f23ca25d8561}</destination>
-		</relationship>
-	</object>
-	<object class="ParameterProxy" id="{7715e47c-df45-4a46-812e-0f7088d57047}">
-		<relationship name="preset">
-			<destination>{af199bfd-7d6f-497a-b277-57f448f65692}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{61020f17-d62e-4b55-bc99-09b82d455093}">
@@ -181,7 +173,6 @@
 		<property name="name">
 			<value>SourcePos</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-2</value>
 		</property>
@@ -190,7 +181,6 @@
 		<property name="name">
 			<value>OverallGain</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>-1</value>
 		</property>
@@ -200,7 +190,7 @@
 			<value>ApplyDA</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -242,7 +232,7 @@
 			<value>ApplyOccl</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -311,7 +301,7 @@
 			<value>DAType</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -369,7 +359,7 @@
 			<value>AirAbsHigh</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0.685000002</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>
@@ -413,7 +403,7 @@
 			<value>Occlusion</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0.5</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>
@@ -519,7 +509,6 @@
 		<property name="name">
 			<value>SimOutputs</value>
 		</property>
-		<property name="value" />
 		<property name="dataType">
 			<value>0</value>
 		</property>

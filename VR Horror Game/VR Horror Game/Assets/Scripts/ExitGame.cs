@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class ExitGame : MonoBehaviour
 {
-    public int fearLevelRequirement;
-
+    public FMODUnity.StudioEventEmitter[] ems;
     public string endScene;
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneLoader.instance.LoadNewScene(endScene);
+        if (other.tag == "Player")
+        {
+            foreach (var item in ems)
+            {
+                item.Stop();
+            }
+            SceneLoader.Instance.LoadNewScene(endScene);
+        }
     }
 }

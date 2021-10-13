@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class InstantSceneSwitch : MonoBehaviour
 {
+    public StudioEventEmitter[] ems;
     public bool ready = false;
     BoxCollider bc;
     private void Start()
@@ -20,6 +22,12 @@ public class InstantSceneSwitch : MonoBehaviour
         {
             bc.enabled = false;
             gameObject.GetComponent<DialInteractable>().colliders.Clear();
+            gameObject.GetComponent<BoxCollider>().enabled = false;
+            foreach (var item in ems)
+            {
+                item.Stop();
+            }
+            gameObject.GetComponent<DialInteractable>().enabled = false;
             StartCoroutine(change(sceneName));
         }
     }

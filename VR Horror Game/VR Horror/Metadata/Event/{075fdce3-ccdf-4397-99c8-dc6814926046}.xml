@@ -143,9 +143,6 @@
 	<object class="MixerBusPanner" id="{1c5602c3-7e45-4c20-b903-e224841dae61}" />
 	<object class="MixerBusFader" id="{156298f7-1188-4834-b161-ba48df4d61fd}" />
 	<object class="PluginEffect" id="{ba1238a4-a2ee-4f23-99a2-14830eae8216}">
-		<property name="bypass">
-			<value>true</value>
-		</property>
 		<relationship name="plugin">
 			<destination>{f85ac91f-c91e-4ae3-9aa4-7882ffd611db}</destination>
 		</relationship>
@@ -321,7 +318,7 @@
 			<value>DAType</value>
 		</property>
 		<property name="value">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="minimumValue">
 			<value>0</value>
@@ -401,7 +398,7 @@
 			<value>DipoleWeight</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<property name="curve">
 			<value>{(0.000000,0.000000)(1.000000,1.000000)}</value>
